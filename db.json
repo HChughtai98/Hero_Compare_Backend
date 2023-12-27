@@ -2489,7 +2489,7 @@
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
       "roles": ["Marksman"],
-      "complexity": 2,
+      "complexity": 1,
       "id": 267
     }
   ]
