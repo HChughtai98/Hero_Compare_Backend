@@ -1,33 +1,2496 @@
 {
-  "projects": [
+  "Characters": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "game": "dota",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_vert.jpg",
+      "description": "Some Text",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Nuker"]
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "Axe",
+      "game": "dota",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Durable", "Disabler", "Carry"]
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Bane",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/bane_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker", "Durable"]
+    },
+    {
+      "id": 4,
+      "name": "Bloodseeker",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Disabler", "Nuker", "Initiator"]
+    },
+    {
+      "id": 5,
+      "name": "Crystal Maiden",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker"]
+    },
+    {
+      "id": 6,
+      "name": "Drow Ranger",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Disabler", "Pusher"]
+    },
+    {
+      "id": 7,
+      "name": "Earthshaker",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Initiator", "Disabler", "Nuker"]
+    },
+    {
+      "id": 8,
+      "name": "Juggernaut",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Pusher", "Escape"]
+    },
+    {
+      "id": 9,
+      "name": "Mirana",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/mirana_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Support", "Escape", "Nuker", "Disabler"]
+    },
+    {
+      "id": 10,
+      "name": "Morphling",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/morphling_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Escape", "Durable", "Nuker", "Disabler"]
+    },
+    {
+      "id": 11,
+      "name": "Shadow Fiend",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker"]
+    },
+    {
+      "id": 12,
+      "name": "Phantom Lancer",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Pusher", "Nuker"]
+    },
+    {
+      "id": 13,
+      "name": "Puck",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/puck_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Initiator", "Disabler", "Escape", "Nuker"]
+    },
+    {
+      "id": 14,
+      "name": "Pudge",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/pudge_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Disabler", "Initiator", "Durable", "Nuker"]
+    },
+    {
+      "id": 15,
+      "name": "Razor",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/razor_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Durable", "Nuker", "Pusher"]
+    },
+    {
+      "id": 16,
+      "name": "Sand King",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/sand_king_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Disabler", "Support", "Nuker", "Escape"]
+    },
+    {
+      "id": 17,
+      "name": "Storm Spirit",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/storm_spirit_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Escape", "Nuker", "Initiator", "Disabler"]
+    },
+    {
+      "id": 18,
+      "name": "Sven",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/sven_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"]
+    },
+    {
+      "id": 19,
+      "name": "Tiny",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/tiny_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Nuker", "Pusher", "Initiator", "Durable", "Disabler"]
+    },
+    {
+      "id": 20,
+      "name": "Vengeful Spirit",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Initiator", "Disabler", "Nuker", "Escape"]
+    },
+    {
+      "id": 21,
+      "name": "Windranger",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Support", "Disabler", "Escape", "Nuker"]
+    },
+    {
+      "id": 22,
+      "name": "Zeus",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Nuker", "Carry"]
+    },
+    {
+      "id": 23,
+      "name": "Kunkka",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Support", "Disabler", "Initiator", "Durable", "Nuker"]
+    },
+    {
+      "id": 25,
+      "name": "Lina",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/lina_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Carry", "Nuker", "Disabler"]
+    },
+    {
+      "id": 26,
+      "name": "Lion",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/lion_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker", "Initiator"]
+    },
+    {
+      "id": 27,
+      "name": "Shadow Shaman",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_shaman_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Pusher", "Disabler", "Nuker", "Initiator"]
+    },
+    {
+      "id": 28,
+      "name": "Slardar",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/slardar_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Durable", "Initiator", "Disabler", "Escape"]
+    },
+    {
+      "id": 29,
+      "name": "Tidehunter",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Durable", "Disabler", "Nuker", "Carry"]
+    },
+    {
+      "id": 30,
+      "name": "Witch Doctor",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/witch_doctor_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler"]
+    },
+    {
+      "id": 31,
+      "name": "Lich",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/lich_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker"]
+    },
+    {
+      "id": 32,
+      "name": "Riki",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/riki_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Disabler"]
+    },
+    {
+      "id": 33,
+      "name": "Enigma",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Disabler", "Initiator", "Pusher"]
+    },
+    {
+      "id": 34,
+      "name": "Tinker",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/tinker_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Pusher"]
+    },
+    {
+      "id": 35,
+      "name": "Sniper",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/sniper_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker"]
+    },
+    {
+      "id": 36,
+      "name": "Necrophos",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Durable", "Disabler"]
+    },
+    {
+      "id": 37,
+      "name": "Warlock",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/warlock_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Initiator", "Disabler"]
+    },
+    {
+      "id": 38,
+      "name": "Beastmaster",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Disabler", "Durable", "Nuker"]
+    },
+    {
+      "id": 39,
+      "name": "Queen of Pain",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Escape"]
+    },
+    {
+      "id": 40,
+      "name": "Venomancer",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/venomancer_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Initiator", "Pusher", "Disabler"]
+    },
+    {
+      "id": 41,
+      "name": "Faceless Void",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Initiator", "Disabler", "Escape", "Durable"]
+    },
+    {
+      "id": 42,
+      "name": "Wraith King",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Support", "Durable", "Disabler", "Initiator"]
+    },
+    {
+      "id": 43,
+      "name": "Death Prophet",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Pusher", "Nuker", "Disabler"]
+    },
+    {
+      "id": 44,
+      "name": "Phantom Assassin",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_assassin_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape"]
+    },
+    {
+      "id": 45,
+      "name": "Pugna",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/pugna_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Nuker", "Pusher"]
+    },
+    {
+      "id": 46,
+      "name": "Templar Assassin",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Escape"]
+    },
+    {
+      "id": 47,
+      "name": "Viper",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/viper_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Durable", "Initiator", "Disabler"]
+    },
+    {
+      "id": 48,
+      "name": "Luna",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/luna_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Pusher"]
+    },
+    {
+      "id": 49,
+      "name": "Dragon Knight",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Pusher", "Durable", "Disabler", "Initiator", "Nuker"]
+    },
+    {
+      "id": 50,
+      "name": "Dazzle",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler"]
+    },
+    {
+      "id": 51,
+      "name": "Clockwerk",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Disabler", "Durable", "Nuker"]
+    },
+    {
+      "id": 52,
+      "name": "Leshrac",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/leshrac_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Support", "Nuker", "Pusher", "Disabler"]
+    },
+    {
+      "id": 53,
+      "name": "Nature's Prophet",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Pusher", "Escape", "Nuker"]
+    },
+    {
+      "id": 54,
+      "name": "Lifestealer",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Durable", "Escape", "Disabler"]
+    },
+    {
+      "id": 55,
+      "name": "Dark Seer",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Escape", "Disabler"]
+    },
+    {
+      "id": 56,
+      "name": "Clinkz",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Escape", "Pusher"]
+    },
+    {
+      "id": 57,
+      "name": "Omniknight",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/omniknight_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Durable", "Nuker"]
+    },
+    {
+      "id": 58,
+      "name": "Enchantress",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Pusher", "Durable", "Disabler"]
+    },
+    {
+      "id": 59,
+      "name": "Huskar",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Durable", "Initiator"]
+    },
+    {
+      "id": 60,
+      "name": "Night Stalker",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Initiator", "Durable", "Disabler", "Nuker"]
+    },
+    {
+      "id": 61,
+      "name": "Broodmother",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Pusher", "Escape", "Nuker"]
+    },
+    {
+      "id": 62,
+      "name": "Bounty Hunter",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Escape", "Nuker"]
+    },
+    {
+      "id": 63,
+      "name": "Weaver",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/weaver_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Escape"]
+    },
+    {
+      "id": 64,
+      "name": "Jakiro",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/jakiro_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Pusher", "Disabler"]
+    },
+    {
+      "id": 65,
+      "name": "Batrider",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Initiator", "Disabler", "Escape"]
+    },
+    {
+      "id": 66,
+      "name": "Chen",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Pusher"]
+    },
+    {
+      "id": 67,
+      "name": "Spectre",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/spectre_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Durable", "Escape"]
+    },
+    {
+      "id": 68,
+      "name": "Ancient Apparition",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker"]
+    },
+    {
+      "id": 69,
+      "name": "Doom",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"]
+    },
+    {
+      "id": 70,
+      "name": "Ursa",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/ursa_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Durable", "Disabler"]
+    },
+    {
+      "id": 71,
+      "name": "Spirit Breaker",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/spirit_breaker_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Initiator", "Disabler", "Durable", "Escape"]
+    },
+    {
+      "id": 72,
+      "name": "Gyrocopter",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Disabler"]
+    },
+    {
+      "id": 73,
+      "name": "Alchemist",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Support", "Durable", "Disabler", "Initiator", "Nuker"]
+    },
+    {
+      "id": 74,
+      "name": "Invoker",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Disabler", "Escape", "Pusher"]
+    },
+    {
+      "id": 75,
+      "name": "Silencer",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/silencer_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Support", "Disabler", "Initiator", "Nuker"]
+    },
+    {
+      "id": 76,
+      "name": "Outworld Destroyer",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Nuker", "Disabler"]
+    },
+    {
+      "id": 77,
+      "name": "Lycan",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/lycan_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Pusher", "Durable", "Escape"]
+    },
+    {
+      "id": 78,
+      "name": "Brewmaster",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Initiator", "Durable", "Disabler", "Nuker"]
+    },
+    {
+      "id": 79,
+      "name": "Shadow Demon",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Initiator", "Nuker"]
+    },
+    {
+      "id": 80,
+      "name": "Lone Druid",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/lone_druid_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Pusher", "Durable"]
+    },
+    {
+      "id": 81,
+      "name": "Chaos Knight",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Disabler", "Durable", "Pusher", "Initiator"]
+    },
+    {
+      "id": 82,
+      "name": "Meepo",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/meepo_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Nuker", "Disabler", "Initiator", "Pusher"]
+    },
+    {
+      "id": 83,
+      "name": "Treant Protector",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/treant_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Initiator", "Durable", "Disabler", "Escape"]
+    },
+    {
+      "id": 84,
+      "name": "Ogre Magi",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Nuker", "Disabler", "Durable", "Initiator"]
+    },
+    {
+      "id": 85,
+      "name": "Undying",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/undying_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Durable", "Disabler", "Nuker"]
+    },
+    {
+      "id": 86,
+      "name": "Rubick",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/rubick_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker"]
+    },
+    {
+      "id": 87,
+      "name": "Disruptor",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker", "Initiator"]
+    },
+    {
+      "id": 88,
+      "name": "Nyx Assassin",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Disabler", "Nuker", "Initiator", "Escape"]
+    },
+    {
+      "id": 89,
+      "name": "Naga Siren",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/naga_siren_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Support", "Pusher", "Disabler", "Initiator", "Escape"]
+    },
+    {
+      "id": 90,
+      "name": "Keeper of the Light",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler"]
+    },
+    {
+      "id": 91,
+      "name": "Io",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/wisp_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Escape", "Nuker"]
+    },
+    {
+      "id": 92,
+      "name": "Visage",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/visage_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Durable", "Disabler", "Pusher"]
+    },
+    {
+      "id": 93,
+      "name": "Slark",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/slark_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Disabler", "Nuker"]
+    },
+    {
+      "id": 94,
+      "name": "Medusa",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/medusa_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Disabler", "Durable"]
+    },
+    {
+      "id": 95,
+      "name": "Troll Warlord",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Pusher", "Disabler", "Durable"]
+    },
+    {
+      "id": 96,
+      "name": "Centaur Warrunner",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Durable", "Initiator", "Disabler", "Nuker", "Escape"]
+    },
+    {
+      "id": 97,
+      "name": "Magnus",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Disabler", "Nuker", "Escape"]
+    },
+    {
+      "id": 98,
+      "name": "Timbersaw",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/shredder_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Nuker", "Durable", "Escape"]
+    },
+    {
+      "id": 99,
+      "name": "Bristleback",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Durable", "Initiator", "Nuker"]
+    },
+    {
+      "id": 100,
+      "name": "Tusk",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/tusk_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Disabler", "Nuker"]
+    },
+    {
+      "id": 101,
+      "name": "Skywrath Mage",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/skywrath_mage_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler"]
+    },
+    {
+      "id": 102,
+      "name": "Abaddon",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Carry", "Durable"]
+    },
+    {
+      "id": 103,
+      "name": "Elder Titan",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Disabler", "Nuker", "Durable"]
+    },
+    {
+      "id": 104,
+      "name": "Legion Commander",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/legion_commander_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"]
+    },
+    {
+      "id": 105,
+      "name": "Techies",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/techies_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Nuker", "Disabler"]
+    },
+    {
+      "id": 106,
+      "name": "Ember Spirit",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/ember_spirit_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Nuker", "Disabler", "Initiator"]
+    },
+    {
+      "id": 107,
+      "name": "Earth Spirit",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/earth_spirit_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Nuker", "Escape", "Disabler", "Initiator", "Durable"]
+    },
+    {
+      "id": 108,
+      "name": "Underlord",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/abyssal_underlord_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Nuker", "Disabler", "Durable", "Escape"]
+    },
+    {
+      "id": 109,
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/terrorblade_vert.jpg",
+      "name": "Terrorblade",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Pusher", "Nuker"]
+    },
+    {
+      "id": 110,
+      "name": "Phoenix",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/phoenix_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Initiator", "Escape", "Disabler"]
+    },
+    {
+      "id": 111,
+      "name": "Oracle",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/oracle_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler", "Escape"]
+    },
+    {
+      "id": 112,
+      "name": "Winter Wyvern",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/winter_wyvern_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Disabler", "Nuker"]
+    },
+    {
+      "id": 113,
+      "name": "Arc Warden",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/arc_warden_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Carry", "Escape", "Nuker"]
+    },
+    {
+      "id": 114,
+      "name": "Monkey King",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Disabler", "Initiator"]
+    },
+    {
+      "id": 119,
+      "name": "Dark Willow",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler", "Escape"]
+    },
+    {
+      "id": 120,
+      "name": "Pangolier",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/pangolier_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Nuker", "Disabler", "Durable", "Escape", "Initiator"]
+    },
+    {
+      "id": 121,
+      "name": "Grimstroke",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/grimstroke_vert.jpg",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler", "Escape"]
+    },
+    {
+      "id": 123,
+      "name": "Hoodwink",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/hoodwink_vert.jpg",
+      "primary_attr": "agi",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Escape", "Disabler"]
+    },
+    {
+      "id": 126,
+      "name": "Void Spirit",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/void_spirit_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Escape", "Nuker", "Disabler"]
+    },
+    {
+      "id": 128,
+      "name": "Snapfire",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/snapfire_vert.jpg",
+      "primary_attr": "all",
+      "attack_type": ["Ranged"],
+      "roles": ["Support", "Nuker", "Disabler", "Escape"]
+    },
+    {
+      "id": 129,
+      "name": "Mars",
+      "image": "http://cdn.dota2.com/apps/dota2/images/heroes/mars_vert.jpg",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Initiator", "Disabler", "Durable"]
+    },
+    {
+      "id": 135,
+      "name": "Dawnbreaker",
+      "image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d6/Dawnbreaker_icon.png/revision/latest?cb=20210410124439",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Carry", "Durable"]
+    },
+    {
+      "id": 136,
+      "name": "Marci",
+      "image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/12/Marci_icon.png/revision/latest/scale-to-width-down/300?cb=20211029000514",
+      "primary_attr": "all",
+      "attack_type": ["Melee"],
+      "roles": ["Support", "Carry", "Initiator", "Disabler", "Escape"]
+    },
+    {
+      "id": 137,
+      "name": "Primal Beast",
+      "image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f2/Primal_Beast_icon.png/revision/latest?cb=20220223230622",
+      "primary_attr": "str",
+      "attack_type": ["Melee"],
+      "roles": ["Initiator", "Durable", "Disabler"]
+    },
+    {
+      "id": 138,
+      "name": "Muerta",
+      "image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1f/Muerta_icon.png/revision/latest?cb=20230816024719",
+      "primary_attr": "int",
+      "attack_type": ["Ranged"],
+      "classes": ["Tank"],
+      "roles": ["Carry", "Nuker", "Disabler"]
+    },
+    {
+      "id": 139,
+      "game": "lol",
+      "name": "Aatrox",
+      "image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1f/Muerta_icon.png/revision/latest?cb=20230816024719",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Fighter"],
+      "complexity": 2
+    },
+    {
+      "name": "Ahri",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ahri.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 140
+    },
+    {
+      "name": "Akali",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Akali.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 2,
+      "id": 141
+    },
+    {
+      "name": "Akshan",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Akshan.png ",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 1,
+      "id": 142
+    },
+    {
+      "name": "Alistar",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Akshan.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Support"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 143
+    },
+    {
+      "name": "Amumu",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Amumu.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 1,
+      "id": 144
+    },
+    {
+      "name": "Anivia",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Anivia.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 145
+    },
+    {
+      "name": "Annie",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Annie.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 146
+    },
+    {
+      "name": "Aphelios",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Aphelios.png ",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 3,
+      "id": 147
+    },
+    {
+      "name": "Ashe",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ashe.png ",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 1,
+      "id": 148
+    },
+    {
+      "name": "Aurelion Sol",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/AurelionSol.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 149
+    },
+    {
+      "name": "Azir",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Azir.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 150
+    },
+    {
+      "name": "Bard",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Bard.png ",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 3,
+      "id": 151
+    },
+    {
+      "name": "Bel'Veth",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6c/Bel%27VethSquare.png/revision/latest?cb=20220605012201",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 152
+    },
+    {
+      "name": "Blitzcrank",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Blitzcrank.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Support", "Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 153
+    },
+    {
+      "name": "Brand",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Brand.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 154
+    },
+    {
+      "name": "Braum",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Braum.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Support"],
+      "roles": ["Support"],
+      "complexity": 1,
+      "id": 155
+    },
+    {
+      "name": "Briar",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/c6/BriarSquare.png/revision/latest?cb=20230906073805",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 156
+    },
+    {
+      "name": "Caitlyn",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Caitlyn.png",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 157
+    },
+    {
+      "name": "Camille",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Camille.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 158
+    },
+    {
+      "name": "Cassiopeia",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Cassiopeia.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 159
+    },
+    {
+      "name": "Cho'Gath",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/ae/Cho%27GathSquare.png/revision/latest?cb=20170801182732",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 160
+    },
+    {
+      "name": "Corki",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Corki.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 161
+    },
+    {
+      "name": "Darius",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Darius.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 162
+    },
+    {
+      "name": "Diana",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Diana.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 163
+    },
+    {
+      "name": "Dr.Mundo",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/DrMundo.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 164
+    },
+    {
+      "name": "Draven",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Draven.png",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 3,
+      "id": 165
+    },
+    {
+      "name": "Ekko",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ekko.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 166
+    },
+    {
+      "name": "Elise",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Elise.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee", "Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 167
+    },
+    {
+      "name": "Evelynn",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Evelynn.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 168
+    },
+    {
+      "name": "Ezreal",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ezreal.png",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 169
+    },
+    {
+      "name": "Fiddlesticks",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Fiddlesticks.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 170
+    },
+    {
+      "name": "Fizz",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Fizz.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 2,
+      "id": 171
+    },
+    {
+      "name": "Galio",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Galio.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 172
+    },
+    {
+      "name": "Gangplank",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Gangplank.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 173
+    },
+    {
+      "name": "Garen",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Garen.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 174
+    },
+    {
+      "name": "Gnar",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Gnar.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee", "Ranged"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 175
+    },
+    {
+      "name": "Graves",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Graves.png",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 1,
+      "id": 176
+    },
+    {
+      "name": "Gwen",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Gwen.png",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 177
+    },
+    {
+      "name": "Hecarim",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Hecarim.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 178
+    },
+    {
+      "name": "Heimerdinger",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Heimerdinger.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 179
+    },
+    {
+      "name": "Hwei",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/65/HweiSquare.png/revision/latest?cb=20231210095747",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 180
+    },
+    {
+      "name": "Illaoi",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Illaoi.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 181
+    },
+    {
+      "name": "Irelia",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Irelia.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 182
+    },
+    {
+      "name": "Ivern",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ivern.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 183
+    },
+    {
+      "name": "Janna",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Janna.png",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 184
+    },
+    {
+      "name": "Jarvan VI",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6c/Jarvan_IVSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20170802015016",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 185
+    },
+    {
+      "name": "Jax",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jax.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 186
+    },
+    {
+      "name": "Jayce",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jayce.png",
+      "primary_attr": "AD",
+      "attack_type": ["Melee", "Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 187
+    },
+    {
+      "name": "Jhin",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jhin.png",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 188
+    },
+    {
+      "name": "Jinx",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jinx.png",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 189
+    },
+    {
+      "name": "K'Sante",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/58/K%27SanteSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20221023135534",
+      "description": "Defiant and courageous, K'Sante battles colossal beasts and ruthless Ascended to protect his home of Nazumah, a coveted oasis amid the sands of Shurima. But after a falling-out with his former partner, K'Sante realizes that in order to become a warrior worthy of leading his city, he must temper his single-minded drive for success. Only then can he avoid falling prey to his own pride and find the wisdom he needs to defeat the vicious monsters threatening his people.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 3,
+      "id": 190
+    },
+    {
+      "name": "Kai'Sa",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/49/Kai%27SaSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20180222044444",
+      "description": "Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together… or simply to forget, as the Void consumes the world that left her behind.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 191
+    },
+    {
+      "name": "Kalista",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kalista.png",
+      "description": "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing to pay with their very souls. Those who become the focus of Kalista's wrath should make their final peace, for any pact sealed with this grim hunter can only end with the cold, piercing fire of her soul-spears.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 192
+    },
+    {
+      "name": "Karma",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Karma.png",
+      "description": "No mortal exemplifies the spiritual traditions of Ionia more than Karma. She is the living embodiment of an ancient soul reincarnated countless times, carrying all her accumulated memories into each new life, and blessed with power that few can comprehend. She has done her best to guide her people in recent times of crisis, though she knows that peace and harmony may come only at a considerable cost—both to her, and to the land she holds most dear.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support", "Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 193
+    },
+    {
+      "name": "Karthus",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Karthus.png",
+      "description": "The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of life and death. When Karthus emerges from the Shadow Isles, it is to bring the joy of death to mortals, an apostle of the unliving.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 194
+    },
+    {
+      "name": "Kassadin",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kassadin.png",
+      "description": "Cutting a burning swath through the darkest places of the world, Kassadin knows his days are numbered. A widely traveled Shuriman guide and adventurer, he had chosen to raise a family among the peaceful southern tribes—until the day his village was consumed by the Void. He vowed vengeance, combining a number of arcane artifacts and forbidden technologies for the struggle ahead. Finally, Kassadin set out for the wastelands of Icathia, ready to face any monstrous Void-construct in his search for their self-proclaimed prophet, Malzahar.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 195
+    },
+    {
+      "name": "Katarina",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Katarina.png",
+      "description": "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven her to pursue heavily-guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 196
+    },
+    {
+      "name": "Kayle",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kayle.png",
+      "description": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return…",
+      "primary_attr": "AP",
+      "attack_type": ["Melee", "Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 197
+    },
+    {
+      "name": "Kayn",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kayn.png",
+      "description": "A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny—to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of his body and mind. There are only two possible outcomes: either Kayn bends the weapon to his will... or the malevolent blade consumes him completely, paving the way for the destruction of all Runeterra.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 198
+    },
+    {
+      "name": "Kennen",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kennen.png",
+      "description": "More than just the lightning-quick enforcer of Ionian balance, Kennen is the only yordle member of the Kinkou. Despite his small, furry stature, he is eager to take on any threat with a whirling storm of shuriken and boundless enthusiasm. Alongside his master Shen, Kennen patrols the spirit realm, employing devastating electrical energy to strike down his enemies.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 199
+    },
+    {
+      "name": "Kha'Zix",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/14/Kha%27ZixSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20170802030720",
+      "description": "The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha'Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more effective ways to counter and kill its prey. Initially a mindless beast, Kha'Zix's intelligence has developed as much as its form. Now, the creature plans out its hunts, and even utilizes the visceral terror it engenders in its victims.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 2,
+      "id": 200
+    },
+    {
+      "name": "Kindred",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kindred.png",
+      "description": "Separate, but never parted, Kindred represents the twin essences of death. Lamb's bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred's nature vary across Runeterra, every mortal must choose the true face of their death.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 201
+    },
+    {
+      "name": "Kled",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kled.png",
+      "description": "A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. He is an icon beloved by the empire's soldiers, distrusted by its officers, and loathed by the nobility. Many claim Kled has fought in every campaign the legions have waged, has “acquired” every military title, and has never once backed down from a fight. Though the truth of the matter is often questionable, one part of his legend is undeniable: Charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what's his… and to take whatever he can get.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 202
+    },
+    {
+      "name": "Kog'Maw",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/45/Kog%27MawSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20170802031916",
+      "description": "Belched forth from a rotting Void incursion deep in the wastelands of Icathia, Kog'Maw is an inquisitive yet putrid creature with a caustic, gaping mouth. This particular Void-spawn needs to gnaw and drool on anything within reach to truly understand it. Though not inherently evil, Kog'Maw's beguiling naiveté is dangerous, as it often precedes a feeding frenzy—not for sustenance, but to satisfy its unending curiosity.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 203
+    },
+    {
+      "name": "Leblanc",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Leblanc.png",
+      "description": "Mysterious even to other members of the Black Rose cabal, LeBlanc is but one of many names for a pale woman who has manipulated people and events since the earliest days of Noxus. Using her magic to mirror herself, the sorceress can appear to anyone, anywhere, and even be in many places at once. Always plotting just out of sight, LeBlanc's true motives are as inscrutable as her shifting identity.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 204
+    },
+    {
+      "name": "Lee Sin",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/LeeSin.png",
+      "description": "A master of Ionia's ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 205
+    },
+    {
+      "name": "Leona",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Leona.png",
+      "description": "Imbued with the fire of the sun, Leona is a holy warrior of the Solari who defends Mount Targon with her Zenith Blade and the Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her. Armored in gold and bearing a terrible burden of ancient knowledge, Leona brings enlightenment to some, death to others.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Support", "Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 206
+    },
+    {
+      "name": "Lillia",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lillia.png",
+      "description": "Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 207
+    },
+    {
+      "name": "Lissandra",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lissandra.png",
+      "description": "Lissandra's magic twists the pure power of ice into something dark and terrible. With the force of her black ice, she does more than freeze—she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ''The Ice Witch.'' The truth is much more sinister: Lissandra is a corruptor of nature who plots to unleash an ice age on the world.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 208
+    },
+    {
+      "name": "Lucian",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lucian.png",
+      "description": "Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 209
+    },
+    {
+      "name": "Lulu",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lulu.png",
+      "description": "The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 210
+    },
+    {
+      "name": "Lux",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lux.png",
+      "description": "Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry", "Support"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 211
+    },
+    {
+      "name": "Malphite",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Malphite.png",
+      "description": "A massive creature of living stone, Malphite struggles to impose blessed order on a chaotic world. Birthed as a servitor-shard to an otherworldly obelisk known as the Monolith, he used his tremendous elemental strength to maintain and protect his progenitor, but ultimately failed. The only survivor of the destruction that followed, Malphite now endures Runeterra's soft folk and their fluid temperaments, while struggling to find a new role worthy of the last of his kind.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 1,
+      "id": 212
+    },
+    {
+      "name": "Malzahar",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Malzahar.png",
+      "description": "A zealous seer dedicated to the unification of all life, Malzahar truly believes the newly emergent Void to be the path to Runeterra's salvation. In the desert wastes of Shurima, he followed the voices that whispered in his mind, all the way to ancient Icathia. Amidst the ruins of that land, he gazed into the dark heart of the Void itself, and was gifted new power and purpose. Malzahar now sees himself as a shepherd, empowered to bring others into the fold… or to release the voidling creatures that dwell beneath.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 213
+    },
+    {
+      "name": "Maokai",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Maokai.png",
+      "description": "Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical cataclysm destroyed his home, surviving undeath only through the Waters of Life infused within his heartwood. Once a peaceful nature spirit, Maokai now furiously battles to banish the scourge of unlife from the Shadow Isles and restore his home to its former beauty.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Support"],
+      "roles": ["Tank"],
+      "complexity": 1,
+      "id": 214
+    },
+    {
+      "name": "Master Yi",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MasterYi.png",
+      "description": "Master Yi has tempered his body and sharpened his mind, so that thought and action have become almost as one. Though he chooses to enter into violence only as a last resort, the grace and speed of his blade ensures resolution is always swift. As one of the last living practitioners of the Ionian art of Wuju, Yi has devoted his life to continuing the legacy of his people—scrutinizing potential new disciples with the Seven Lenses of Insight to identify the most worthy among them.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 2,
+      "id": 215
+    },
+    {
+      "name": "Milio",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/10/MilioSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20230322133847",
+      "description": "Milio is a warmhearted boy from Ixtal who has, despite his young age, mastered the fire axiom and discovered something new: soothing fire. With this newfound power, Milio plans to help his family escape their exile by joining the Yun Tal—just like his grandmother once did. Having traveled through the Ixtal jungles to the capital of Ixaocan, Milio now prepares to face the Vidalion and join the Yun Tal, unaware of the trials—and dangers—that await him.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 216
+    },
+    {
+      "name": "Miss Fortune",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MissFortune.png",
+      "description": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 1,
+      "id": 217
+    },
+    {
+      "name": "Mordekaiser",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Mordekaiser.png",
+      "description": "Twice slain and thrice born, Mordekaiser is a brutal warlord from a foregone epoch who uses his necromantic sorcery to bind souls into an eternity of servitude. Few now remain who remember his earlier conquests, or know the true extent of his powers—but there are some ancient souls that do, and they fear the day when he may return to claim dominion over both the living and the dead.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 218
+    },
+    {
+      "name": "Morgana",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Morgana.png",
+      "description": "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry", "Support"],
+      "roles": ["Mage"],
+      "complexity": 1,
+      "id": 219
+    },
+    {
+      "name": "Naafiri",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8d/NaafiriSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20230702135431",
+      "description": "Across the sands of Shurima, a chorus of howls rings out. It is the call of the dune hounds, voracious predators who form packs and compete for the right to hunt in these barren lands. Among them, one pack stands above all, for they are driven not only by canine instincts, but by the ancient power of the Darkin.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 1,
+      "id": 220
+    },
+    {
+      "name": "Nami",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nami.png",
+      "description": "A headstrong young vastaya of the seas, Nami was the first of the Marai tribe to leave the waves and venture onto dry land, when their ancient accord with the Targonians was broken. With no other option, she took it upon herself to complete the sacred ritual that would ensure the safety of her people. Amidst the chaos of this new age, Nami faces an uncertain future with grit and determination, using her Tidecaller staff to summon the strength of the oceans themselves.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 221
+    },
+    {
+      "name": "Nasus",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nasus.png",
+      "description": "Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and peerless strategist whose wisdom guided the ancient empire of Shurima to greatness for many centuries. After the fall of the empire, he went into self-imposed exile, becoming little more than a legend. Now that the ancient city of Shurima has risen once more, he has returned, determined to ensure it never falls again.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 222
+    },
+    {
+      "name": "Nautilus",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nautilus.png",
+      "description": "A lonely legend as old as the first piers sunk in Bilgewater, the armored goliath known as Nautilus roams the dark waters off the coast of the Blue Flame Isles. Driven by a forgotten betrayal, he strikes without warning, swinging his enormous anchor to save the wretched, and drag the greedy to their doom. It is said he comes for those who forget to pay the “Bilgewater tithe”, pulling them down beneath the waves with him—an iron-clad reminder that none can escape the depths.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Support", "Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 223
+    },
+    {
+      "name": "Neeko",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Neeko.png",
+      "description": "Hailing from a long lost tribe of vastaya, Neeko can blend into any crowd by borrowing the appearances of others, even absorbing something of their emotional state to tell friend from foe in an instant. No one is ever sure where—or who—Neeko might be, but those who intend to do her harm will soon witness her true colors revealed, and feel the full power of her primordial spirit magic unleashed upon them.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry", "Support", "Tank"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 224
+    },
+    {
+      "name": "Nidalee",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nidalee.png",
+      "description": "Raised in the deepest jungle, Nidalee is a master tracker who can shapeshift into a ferocious cougar at will. Neither wholly woman nor beast, she viciously defends her territory from any and all trespassers, with carefully placed traps and deft spear throws. She cripples her quarry before pouncing on them in feline form—the lucky few who survive tell tales of a wild woman with razor-sharp instincts, and even sharper claws...",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged", "Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 225
+    },
+    {
+      "name": "Nilah",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/02/NilahSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20220722123340",
+      "description": "Nilah is an ascetic warrior from a distant land, seeking the world's deadliest, most titanic opponents so that she might challenge and destroy them. Having won her power through an encounter with the long-imprisoned demon of joy, she has no emotions other than unceasing jubilation—a small price to pay for the vast strength she now possesses. Channeling the demon's liquid form into a blade of unparalleled might, she stands defiant against ancient threats long forgotten.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 3,
+      "id": 226
+    },
+    {
+      "name": "Nocturne",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nocturne.png",
+      "description": "A demonic amalgamation drawn from the nightmares that haunt every sentient mind, the thing known as Nocturne has become a primordial force of pure evil. It is liquidly chaotic in aspect, a faceless shadow with cold eyes and armed with wicked-looking blades. After freeing itself from the spirit realm, Nocturne descended upon the waking world, to feed upon the kind of terror that can only thrive in true darkness.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 2,
+      "id": 227
+    },
+    {
+      "name": "Nunu & Willump",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/be/Nunu_%26_WillumpSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20180814233723",
+      "description": "Once upon a time, there was a boy who wanted to prove he was a hero by slaying a fearsome monster—only to discover that the beast, a lonely and magical yeti, merely needed a friend. Bound together by ancient power and a shared love of snowballs, Nunu and Willump now ramble wildly across the Freljord, breathing life into imagined adventures. They hope that somewhere out there, they will find Nunu's mother. If they can save her, maybe they will be heroes after all…",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 228
+    },
+    {
+      "name": "Olaf",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Olaf.png",
+      "description": "An unstoppable force of destruction, the axe-wielding Olaf wants nothing but to die in glorious combat. Hailing from the brutal Freljordian peninsula of Lokfar, he once received a prophecy foretelling his peaceful passing—a coward's fate, and a great insult among his people. Seeking death, and fueled by rage, he rampaged across the land, slaughtering scores of great warriors and legendary beasts in search of any opponent who could stop him. Now a brutal enforcer for the Winter's Claw, he seeks his end in the great wars to come.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 229
+    },
+    {
+      "name": "Orianna",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Orianna.png",
+      "description": "Once a curious girl of flesh and blood, Orianna is now a technological marvel comprised entirely of clockwork. She became gravely ill after an accident in the lower districts of Zaun, and her failing body had to be replaced with exquisite artifice, piece by piece. Accompanied by an extraordinary brass sphere she built for companionship and protection, Orianna is now free to explore the wonders of Piltover, and beyond.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 230
+    },
+    {
+      "name": "Ornn",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ornn.png",
+      "description": "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion items of unsurpassed quality. When other deities—especially Volibear—walk the earth and meddle in mortal affairs, Ornn arises to put these impetuous beings back in their place, either with his trusty hammer or the fiery power of the mountains themselves.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 231
+    },
+    {
+      "name": "Pantheon",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Pantheon.png",
+      "description": "Once an unwilling host to the Aspect of War, Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon reborn, his unbreakable will fueling the fallen Aspect's weapons on the field of battle.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 232
+    },
+    {
+      "name": "Poppy",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Poppy.png",
+      "description": "Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this determined yordle has spent untold years searching in secret for the fabled “Hero of Demacia,” said to be its rightful wielder. Until then, she dutifully charges into battle, pushing back the kingdom's enemies with every whirling strike.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 233
+    },
+    {
+      "name": "Pyke",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Pyke.png",
+      "description": "A renowned harpooner from the slaughter docks of Bilgewater, Pyke should have met his death in the belly of a gigantic jaull-fish… and yet, he returned. Now, stalking the dank alleys and backways of his former hometown, he uses his new supernatural gifts to bring a swift and gruesome end to those who make their fortune by exploiting others—and a city that prides itself on hunting monsters now finds a monster hunting them.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 234
+    },
+    {
+      "name": "Qiyana",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Qiyana.png",
+      "description": "In the jungle city of Ixaocan, Qiyana plots her own ruthless path to the high seat of the Yun Tal. Last in line to succeed her parents, she faces those who stand in her way with brash confidence and unprecedented mastery over elemental magic. With the land itself obeying her every command, Qiyana sees herself as the greatest elementalist in the history of Ixaocan—and by that right, deserving of not only a city, but an empire.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 235
+    },
+    {
+      "name": "Quinn",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Quinn.png",
+      "description": "Quinn is an elite ranger-knight of Demacia, who undertakes dangerous missions deep in enemy territory. She and her legendary eagle, Valor, share an unbreakable bond, and their foes are often slain before they realize they are fighting not one, but two of the kingdom's greatest heroes. Nimble and acrobatic when required, Quinn takes aim with her crossbow while Valor marks their elusive targets from above, making them a deadly pair on the battlefield.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 236
+    },
+    {
+      "name": "Rakan",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Rakan.png",
+      "description": "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties, and anarchic music. Few would suspect this energetic, traveling showman is also partner to the rebel Xayah, and is dedicated to her cause.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Support", "Tank"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 237
+    },
+    {
+      "name": "Rammus",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Rammus.png",
+      "description": "Ok",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 238
+    },
+    {
+      "name": "Rek'Sai",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/3e/Rek%27SaiSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20170802105351",
+      "description": "An apex predator, Rek'Sai is a merciless Void-spawn that tunnels beneath the ground to ambush and devour unsuspecting prey. Her insatiable hunger has laid waste to entire regions of the once-great empire of Shurima—merchants, traders, even armed caravans, will go hundreds of miles out of their way to avoid her and her offspring's hunting grounds. All know that once Rek'Sai is seen on the horizon, death from below is all but guaranteed.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 239
+    },
+    {
+      "name": "Rell",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Rell.png",
+      "description": "The product of brutal experimentation at the hands of the Black Rose, Rell is a defiant, living weapon determined to topple Noxus. Her childhood was one of misery and horror, enduring unspeakable procedures to perfect and weaponize her magical control over metal... until she staged a violent escape, killing many of her captors in the process. Now branded as a criminal, Rell attacks Noxian soldiers on sight as she searches for survivors of her old “academy,” defending the meek while delivering violent death to her former overseers.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Support"],
+      "roles": ["Tank"],
+      "complexity": 1,
+      "id": 240
+    },
+    {
+      "name": "Renekton",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Renekton.png",
+      "description": "Renekton is a terrifying, rage-fueled Ascended being from the scorched deserts of Shurima. Once, he was his empire's most esteemed warrior, leading the nation's armies to countless victories. However, after the empire's fall, Renekton was entombed beneath the sands, and slowly, as the world turned and changed, he succumbed to insanity. Now free once more, he is utterly consumed with finding and killing his brother, Nasus, who he blames, in his madness, for the centuries he spent in darkness.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 241
+    },
+    {
+      "name": "Rengar",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Rengar.png",
+      "description": "Rengar is a ferocious vastayan trophy hunter who lives for the thrill of tracking down and killing dangerous creatures. He scours the world for the most fearsome beasts he can find, especially seeking any trace of Kha'Zix, the void creature who scratched out his eye. Rengar stalks his prey neither for food nor glory, but for the sheer beauty of the pursuit.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 242
+    },
+    {
+      "name": "Riven",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Riven.png",
+      "description": "Once a swordmaster in the warhosts of Noxus, Riven is an expatriate in a land she previously tried to conquer. She rose through the ranks on the strength of her conviction and brutal efficiency, and was rewarded with a legendary runic blade and a warband of her own. However, on the Ionian front, Riven's faith in her homeland was tested and ultimately broken. Having severed all ties to the empire, she now seeks to find her place in a shattered world, even as rumors abound that Noxus itself has been reforged...",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 243
+    },
+    {
+      "name": "Rumble",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Rumble.png",
+      "description": "Rumble is a young inventor with a temper. Using nothing more than his own two hands and a heap of scrap, the feisty yordle constructed a colossal mech suit outfitted with an arsenal of electrified harpoons and incendiary rockets. Though others may scoff and sneer at his junkyard creations, Rumble doesn't mind—after all, he's the one with the flamespitter.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 3,
+      "id": 244
+    },
+    {
+      "name": "Ryze",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ryze.png",
+      "description": "Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with immense arcane power and a boundless constitution, he tirelessly hunts for World Runes—fragments of the raw magic that once shaped the world from nothingness. He must retrieve these artifacts before they fall into the wrong hands, for Ryze understands the horrors they could unleash on Runeterra.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 245
+    },
+    {
+      "name": "Samira",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Samira.png",
+      "description": "Samira stares death in the eye with unyielding confidence, seeking thrill wherever she goes. After her Shuriman home was destroyed as a child, Samira found her true calling in Noxus, where she built a reputation as a stylish daredevil taking on dangerous missions of the highest caliber. Wielding black-powder pistols and a custom-engineered blade, Samira thrives in life-or-death circumstances, eliminating any who stand in her way with flash and flair.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged", "Melee"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 246
+    },
+    {
+      "name": "Sejuani",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Sejuani.png",
+      "description": "Sejuani is the brutal, unforgiving Iceborn warmother of the Winter's Claw, one of the most feared tribes of the Freljord. Her people's survival is a constant, desperate battle against the elements, forcing them to raid Noxians, Demacians, and Avarosans alike to survive the harsh winters. Sejuani herself spearheads the most dangerous of these attacks from the saddle of her drüvask boar Bristle, using her True Ice flail to freeze and shatter her enemies.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 247
+    },
+    {
+      "name": "Senna",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Senna.png",
+      "description": "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to lose hope, within the lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic weapon, redeeming the souls lost within.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Support", "Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 248
+    },
+    {
+      "name": "Seraphine",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Seraphine.png",
+      "description": "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they're not alone, that they're stronger together, and that, in her eyes, their potential is limitless.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Mage"],
+      "complexity": 1,
+      "id": 249
+    },
+    {
+      "name": "Sett",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Sett.png",
+      "description": "A leader of Ionia's growing criminal underworld, Sett rose to prominence in the wake of the war with Noxus. Though he began as a humble challenger in the fighting pits of Navori, he quickly gained notoriety for his savage strength, and his ability to take seemingly endless amounts of punishment. Now, having climbed through the ranks of local combatants, Sett has muscled to the top, reigning over the pits he once fought in.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank", "Carry"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 250
+    },
+    {
+      "name": "Shaco",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Shaco.png",
+      "description": "Crafted long ago as a plaything for a lonely prince, the enchanted marionette Shaco now delights in murder and mayhem. Corrupted by dark magic and the loss of his beloved charge, the once-kind puppet finds pleasure only in the misery of the poor souls he torments. He uses toys and simple tricks to deadly effect, finding the results of his bloody “games” hilarious—and for those who hear a dark chuckle in the dead of night, the Demon Jester may have marked them as his next plaything.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 3,
+      "id": 251
+    },
+    {
+      "name": "Shen",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Shen.png",
+      "description": "Among the secretive, Ionian warriors known as the Kinkou, Shen serves as their leader, the Eye of Twilight. He longs to remain free from the confusion of emotion, prejudice, and ego, and walks the unseen path of dispassionate judgment between the spirit realm and the physical world. Tasked with enforcing the equilibrium between them, Shen wields blades of steel and arcane energy against any who would threaten it.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 252
+    },
+    {
+      "name": "Shyvana",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Shyvana.png",
+      "description": "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan IV, Shyvana now serves uneasily in his royal guard, struggling to find acceptance among the suspicious people of Demacia.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 253
+    },
+    {
+      "name": "Singed",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Singed.png",
+      "description": "Singed is a Zaunite alchemist of unmatched intellect, who has devoted his life to pushing the boundaries of knowledge—with no price, even his own sanity, too high to pay. Is there a method to his madness? His concoctions rarely fail, but it appears to many that Singed has lost all sense of humanity, leaving a toxic trail of misery and terror in his wake.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 254
+    },
+    {
+      "name": "Sion",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Sion.png",
+      "description": "A war hero from a bygone era, Sion was revered in Noxus for choking the life out of a Demacian king with his bare hands—but, denied oblivion, he was resurrected to serve his empire even in death. His indiscriminate slaughter claimed all who stood in his way, regardless of allegiance, proving he no longer retained his former humanity. Even so, with crude armor bolted onto rotten flesh, Sion continues to charge into battle with reckless abandon, struggling to remember his true self between the swings of his mighty axe.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Tank"],
+      "complexity": 2,
+      "id": 255
+    },
+    {
+      "name": "Sivir",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Sivir.png",
+      "description": "Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima. Armed with her legendary jeweled crossblade, she has fought and won countless battles for those who can afford her exorbitant price. Known for her fearless resolve and endless ambition, she prides herself on recovering buried treasures from the perilous tombs of Shurima—for a generous bounty. With ancient forces stirring the very bones of Shurima, Sivir finds herself torn between conflicting destinies.",
+      "primary_attr": "AD",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 256
+    },
+    {
+      "name": "Skarner",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Skarner.png",
+      "description": "Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as their souls are fused with powerful life crystals which hold the living thoughts and memories of their ancestors. In an age long past, the Brackern entered hibernation to avoid untold magical destruction, but recent, threatening events have roused Skarner. As the only Brackern awake, he strives to protect his kind from those who seek to harm them.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 257
+    },
+    {
+      "name": "Sona",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Sona.png",
+      "description": "Sona is Demacia's foremost virtuoso of the stringed etwahl, speaking only through her graceful chords and vibrant arias. This genteel manner has endeared her to the highborn, though others suspect her spellbinding melodies to actually emanate magic—a Demacian taboo. Silent to outsiders but somehow understood by close companions, Sona plucks her harmonies not only to soothe injured allies, but also to strike down unsuspecting enemies.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 258
+    },
+    {
+      "name": "Soraka",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Soraka.png",
+      "description": "A wanderer from the celestial dimensions beyond Mount Targon, Soraka gave up her immortality to protect the mortal races from their own more violent instincts. She endeavors to spread the virtues of compassion and mercy to everyone she meets—even healing those who would wish harm upon her. And, for all Soraka has seen of this world's struggles, she still believes the people of Runeterra have yet to reach their full potential.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Support"],
+      "roles": ["Support"],
+      "complexity": 1,
+      "id": 259
+    },
+    {
+      "name": "Swain",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Swain.png",
+      "description": "Jericho Swain is the visionary ruler of Noxus, an expansionist nation that reveres only strength. Though he was cast down and crippled in the Ionian wars, his left arm severed, he seized control of the empire with ruthless determination… and a new, demonic hand. Now, Swain commands from the front lines, marching against a coming darkness that only he can see—in glimpses gathered by shadowy ravens from the corpses all around him. In a swirl of sacrifice and secrets, the greatest secret of all is that the true enemy lies within.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry", "Tank", "Support"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 260
+    },
+    {
+      "name": "Sylas",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Sylas.png",
+      "description": "Raised in one of Demacia's lesser quarters, Sylas of Dregbourne has come to symbolize the darker side of the Great City. As a boy, his ability to root out hidden sorcery caught the attention of the notorious mageseekers, who eventually imprisoned him for turning those same powers against them. Having now broken free, Sylas lives as a hardened revolutionary, using the magic of those around him to destroy the kingdom he once served… and his band of outcast mage followers seems to grow by the day.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 261
+    },
+    {
+      "name": "Syndra",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Syndra.png",
+      "description": "Syndra is a fearsome Ionian mage with incredible power at her command. As a child, she disturbed the village elders with her reckless and wild magic. She was sent away to be taught greater control, but eventually discovered her supposed mentor was restraining her abilities. Forming her feelings of betrayal and hurt into dark spheres of energy, Syndra has sworn to destroy all who would try to control her.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 3,
+      "id": 262
+    },
+    {
+      "name": "Tahm Kench",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/TahmKench.png",
+      "description": "Known by many names throughout history, the demon Tahm Kench travels the waterways of Runeterra, feeding his insatiable appetite with the misery of others. Though he may appear singularly charming and proud, he swaggers through the physical realm like a vagabond in search of unsuspecting prey. His lashing tongue can stun even a heavily armored warrior from a dozen paces, and to fall into his rumbling belly is to tumble into an abyss from which there is little hope of return.",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Support", "Tank"],
+      "roles": ["Support"],
+      "complexity": 2,
+      "id": 263
+    },
+    {
+      "name": "Taliyah",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Taliyah.png",
+      "description": "Taliyah is a nomadic mage from Shurima, torn between teenage wonder and adult responsibility. She has crossed nearly all of Valoran on a journey to learn the true nature of her growing powers, though more recently she has returned to protect her tribe. Some have mistaken her compassion for weakness and paid the ultimate price—for beneath Taliyah's youthful demeanor is a will strong enough to move mountains, and a spirit fierce enough to make the earth itself tremble.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Mage"],
+      "complexity": 2,
+      "id": 264
+    },
+    {
+      "name": "Talon",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Talon.png",
+      "description": "Talon is the knife in the darkness, a merciless killer able to strike without warning and escape before any alarm is raised. He carved out a dangerous reputation on the brutal streets of Noxus, where he was forced to fight, kill, and steal to survive. Adopted by the notorious Du Couteau family, he now plies his deadly trade at the empire's command, assassinating enemy leaders, captains, and heroes… as well as any Noxian foolish enough to earn the scorn of their masters.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Assassin"],
+      "complexity": 2,
+      "id": 265
+    },
+    {
+      "name": "Taric",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Taric.png",
+      "description": "Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount Targon to find redemption, only to discover a higher calling among the stars. Imbued with the might of ancient Targon, the Shield of Valoran now stands ever vigilant against the insidious corruption of the Void.",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Support", "Tank"],
+      "roles": ["Support"],
+      "complexity": 1,
+      "id": 266
+    },
+    {
+      "name": "Teemo",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Teemo.png",
+      "description": "Undeterred by even the most dangerous and threatening of obstacles, Teemo scouts the world with boundless enthusiasm and a cheerful spirit. A yordle with an unwavering sense of morality, he takes pride in following the Bandle Scout's Code, sometimes with such eagerness that he is unaware of the broader consequences of his actions. Though some say the existence of the Scouts is questionable, one thing is for certain: Teemo's conviction is nothing to be trifled with.",
+      "primary_attr": "AP",
+      "attack_type": ["Ranged"],
+      "classes": ["Carry"],
+      "roles": ["Marksman"],
+      "complexity": 2,
+      "id": 267
     }
   ]
 }
