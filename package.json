@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "json-server": "json-server --watch C:/Users/Haris/Desktop/Ironhack/Module2/Hero_Compare_Project/Hero_Compare_Backend/db.json --port 5005"
+    "json-server": "json-server --watch ./db.json --port 5005"
   },
   "keywords": [],
   "author": "",
