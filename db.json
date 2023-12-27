@@ -4345,6 +4345,576 @@
       ],
       "complexity": 2,
       "id": 270
+    },
+    {
+      "name": "Tryndamere",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Tryndamere.png",
+      "description": "Fueled by unbridled fury and rage, Tryndamere once carved his way through the Freljord, openly challenging the greatest warriors of the north to prepare himself for even darker days ahead. The wrathful barbarian has long sought revenge for the annihilation of his clan, though more recently he has found companionship with Ashe, the Avarosan warmother, and a home with her people. His almost inhuman strength and fortitude is legendary, and has delivered him and his new allies countless victories against the greatest of odds.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 2,
+      "id": 271
+    },
+    {
+      "name": "Twisted Fate",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/TwistedFate.png",
+      "description": "Twisted Fate is an infamous cardsharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking smile and an insouciant swagger. In every possible way, Twisted Fate always has an ace up his sleeve.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Range"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 3,
+      "id": 272
+    },
+    {
+      "name": "Twitch",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Twitch.png",
+      "description": "A Zaunite plague rat by birth, but a connoisseur of filth by passion, Twitch is not afraid to get his paws dirty. Aiming a chem-powered crossbow at the gilded heart of Piltover, he has vowed to show those in the city above just how filthy they really are. Always a sneaky sneak, when he's not rooting around in the Sump, he's digging deep into other people's garbage for discarded treasures… and perhaps a moldy sandwich.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Range"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Marksman"
+      ],
+      "complexity": 2,
+      "id": 273
+    },
+    {
+      "name": "Udyr",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Udyr.png",
+      "description": "The most powerful spirit walker alive, Udyr communes with all the spirits of the Freljord, whether by empathically understanding their needs, or by channeling and transforming their ethereal energy into his own primal fighting style. He seeks balance within, so that his mind does not get lost amidst others, but he also seeks balance without—for the Freljord's mystical landscape can only thrive with the growth that comes from conflict and struggle, and Udyr knows that sacrifices must be made to keep peaceful stagnance at bay.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 2,
+      "id": 274
+    },
+    {
+      "name": "Urgot",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Urgot.png",
+      "description": "Once a powerful Noxian headsman, Urgot was betrayed by the empire for which he had killed so many. Bound in iron chains, he was forced to learn the true meaning of strength in the Dredge—a prison mine deep beneath Zaun. Emerging in a disaster that spread chaos throughout the city, he now casts an imposing shadow over its criminal underworld. Raising his victims on the very chains that once enslaved him, he will purge his new home of the unworthy, making it a crucible of pain.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 3,
+      "id": 275
+    },
+    {
+      "name": "Varus",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Varus.png",
+      "description": "One of the ancient darkin, Varus was a deadly killer who loved to torment his foes, driving them almost to insanity before delivering the killing arrow. He was imprisoned at the end of the Great Darkin War, but escaped centuries later in the remade flesh of two Ionian hunters—they had unwittingly released him, cursed to bear the bow containing his bound essence. Varus now seeks out those who trapped him, in order to enact his brutal vengeance, but the mortal souls within still resist him every step of the way.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Marksman"
+      ],
+      "complexity": 1,
+      "id": 276
+    },
+    {
+      "name": "Vayne",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Vayne.png",
+      "description": "Shauna Vayne is a deadly, remorseless Demacian monster hunter, who has dedicated her life to finding and destroying the demon that murdered her family. Armed with a wrist-mounted crossbow and a heart full of vengeance, she is only truly happy when slaying practitioners or creations of the dark arts, striking from the shadows with a flurry of silver bolts.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Marksman"
+      ],
+      "complexity": 3,
+      "id": 277
+    },
+    {
+      "name": "Veigar",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Veigar.png",
+      "description": "An enthusiastic master of dark sorcery, Veigar has embraced powers that few mortals dare approach. As a free-spirited inhabitant of Bandle City, he longed to push beyond the limitations of yordle magic, and turned instead to arcane texts that had been hidden away for thousands of years. Now a stubborn creature with an endless fascination for the mysteries of the universe, Veigar is often underestimated by others—but even though he believes himself truly evil, he possesses an inner morality that leads some to question his deeper motivations.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 2,
+      "id": 278
+    },
+    {
+      "name": "Vel'Koz",
+      "game": "Lol",
+      "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/05/Vel%27KozSquare.png/revision/latest/thumbnail-down/width/200/height/200?cb=20170802170950",
+      "description": "It is unclear if Vel'Koz was the first Void-spawn to emerge on Runeterra, but there has certainly never been another to match his level of cruel, calculating sentience. While his kin devour or defile everything around them, he seeks instead to scrutinize and study the physical realm—and the strange, warlike beings that dwell there—for any weakness the Void might exploit. But Vel'Koz is far from a passive observer, striking back at threats with deadly plasma, or by disrupting the very fabric of the world itself.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry",
+        "Support"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 3,
+      "id": 279
+    },
+    {
+      "name": "Vex",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Vex.png",
+      "description": "In the black heart of the Shadow Isles, a lone yordle trudges through the spectral fog, content in its murky misery. With an endless supply of teen angst and a powerful shadow in tow, Vex lives in her own self-made slice of gloom, far from the revolting cheer of the “normie” world. Though she lacks ambition, she is quick to strike down color and happiness, stopping all would-be interlopers with her magical malaise.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 1,
+      "id": 280
+    },
+    {
+      "name": "Vi",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Vi.png",
+      "description": "Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens of Piltover to keep the peace, she wields mighty hextech gauntlets that can punch through walls and suspects with equal ease.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 2,
+      "id": 281
+    },
+    {
+      "name": "Viego",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Viego.png",
+      "description": "Once ruler of a long-lost kingdom, Viego perished over a thousand years ago when his attempt to bring his wife back from the dead triggered the magical catastrophe known as the Ruination. Transformed into a powerful, unliving wraith tortured by an obsessive longing for his centuries-dead queen, Viego now stands as the Ruined King, controlling the deadly Harrowings as he scours Runeterra for anything that might one day restore her, and destroying all in his path as the Black Mist pours endlessly from his cruel, broken heart.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Assassin"
+      ],
+      "complexity": 2,
+      "id": 282
+    },
+    {
+      "name": "Viktor",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Viktor.png",
+      "description": "The herald of a new age of technology, Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift the people of Zaun to a new level of understanding, he believes that only by embracing a glorious evolution of technology can humanity's full potential be realized. With a body augmented by steel and science, Viktor is zealous in his pursuit of this bright future.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 3,
+      "id": 283
+    },
+    {
+      "name": "Vladimir",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Vladimir.png",
+      "description": "A fiend with a thirst for mortal blood, Vladimir has influenced the affairs of Noxus since the empire's earliest days. In addition to unnaturally extending his life, his mastery of hemomancy allows him to control the minds and bodies of others as easily as his own. In the flamboyant salons of the Noxian aristocracy, this has enabled him to build a fanatical cult of personality around himself—while in the lowest back alleys, it allows him to bleed his enemies dry.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 2,
+      "id": 284
+    },
+    {
+      "name": "Volibear",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Volibear.png",
+      "description": "To those who still revere him, the Volibear is the storm made manifest. Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord's tundra, and is fiercely protective of the lands that he and his demi-god kin created. Cultivating a deep hatred of civilization and the weakness it brought with it, he now fights to return to the old ways—when the land was untamed, and blood spilled freely—and eagerly battles all who oppose him, with tooth, claw, and thundering domination.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 1,
+      "id": 285
+    },
+    {
+      "name": "Warwick",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Warwick.png",
+      "description": "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city's depths. Warwick is drawn to blood, and driven mad by its scent. None who spill it can escape him.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 1,
+      "id": 286
+    },
+    {
+      "name": "Wukong",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Wukong.png",
+      "description": "Wukong is a vastayan trickster who uses his strength, agility, and intelligence to confuse his opponents and gain the upper hand. After finding a lifelong friend in the warrior known as Master Yi, Wukong became the last student of the ancient martial art known as Wuju. Armed with an enchanted staff, Wukong seeks to prevent Ionia from falling to ruin.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 1,
+      "id": 287
+    },
+    {
+      "name": "Xayah",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Xayah.png",
+      "description": "Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover, Rakan, to protect their dwindling tribe, and restore their race to her vision of its former glory.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Marksman"
+      ],
+      "complexity": 2,
+      "id": 288
+    },
+    {
+      "name": "Xerath",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Xerath.png",
+      "description": "Xerath is an Ascended Magus of ancient Shurima, a being of arcane energy writhing in the broken shards of a magical sarcophagus. For millennia, he was trapped beneath the desert sands, but the rise of Shurima freed him from his ancient prison. Driven insane with power, he now seeks to take what he believes is rightfully his and replace the upstart civilizations of the world with one fashioned in his image.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry",
+        "Support"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 3,
+      "id": 289
+    },
+    {
+      "name": "Xin Zhao",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/XinZhao.png",
+      "description": "Xin Zhao is a resolute warrior loyal to the ruling Lightshield dynasty. Once condemned to the fighting pits of Noxus, he survived countless gladiatorial bouts, but after being freed by Demacian forces, he swore his life and allegiance to these brave liberators. Armed with his favored three-talon spear, Xin Zhao now fights for his adopted kingdom, audaciously challenging any foe, no matter the odds.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 1,
+      "id": 290
+    },
+    {
+      "name": "Yasuo",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Yasuo.png",
+      "description": "An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against his enemies. As a proud young man, he was falsely accused of murdering his master—unable to prove his innocence, he was forced to slay his own brother in self defense. Even after his master's true killer was revealed, Yasuo still could not forgive himself for all he had done, and now wanders his homeland with only the wind to guide his blade.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 3,
+      "id": 291
+    },
+    {
+      "name": "Yone",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Yone.png",
+      "description": "In life, he was Yone—half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Assassin"
+      ],
+      "complexity": 3,
+      "id": 292
+    },
+    {
+      "name": "Yorick",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Yorick.png",
+      "description": "The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that he gathers to him. Yorick's monstrous actions belie his noble purpose: to free his home from the curse of the Ruination.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry",
+        "Tank"
+      ],
+      "roles": [
+        "Fighter"
+      ],
+      "complexity": 2,
+      "id": 293
+    },
+    {
+      "name": "Yuumi",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Yuumi.png",
+      "description": "A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for her. Yearning for affection, Yuumi seeks friendly companions to partner with on her journey, protecting them with luminous shields and fierce resolve. While Book strives to keep her on task, Yuumi is often drawn to worldly comforts, such as naps and fish. In the end, however, she always returns to her quest to find her friend.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Support"
+      ],
+      "roles": [
+        "Support"
+      ],
+      "complexity": 1,
+      "id": 294
+    },
+    {
+      "name": "Zac",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Zac.png",
+      "description": "Zac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun's Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city's pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Tank"
+      ],
+      "roles": [
+        "Tank"
+      ],
+      "complexity": 3,
+      "id": 295
+    },
+    {
+      "name": "Zed",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Zed.png",
+      "description": "Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia's magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Melee"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Assassin"
+      ],
+      "complexity": 2,
+      "id": 296
+    },
+    {
+      "name": "Zeri",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Zeri.png",
+      "description": "A headstrong, spirited young woman from Zaun's working-class, Zeri channels her electric magic to charge herself and her custom-crafted gun. Her volatile power mirrors her emotions, its sparks reflecting her lightning-fast approach to life. Deeply compassionate toward others, Zeri carries the love of her family and her home into every fight. Though her eagerness to help can sometimes backfire, Zeri believes one truth to be certain: stand up for your community, and it will stand up with you.",
+      "primary_attr": "AD",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Marksman"
+      ],
+      "complexity": 2,
+      "id": 297
+    },
+    {
+      "name": "Ziggs",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ziggs.png",
+      "description": "With a love of big bombs and short fuses, the yordle Ziggs is an explosive force of nature. As an inventor's assistant in Piltover, he was bored by his predictable life and befriended a mad, blue-haired bomber named Jinx. After a wild night on the town, Ziggs took her advice and moved to Zaun, where he now explores his fascinations more freely, terrorizing the chem-barons and regular citizens alike in his never ending quest to blow stuff up.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 2,
+      "id": 298
+    },
+    {
+      "name": "Zilean",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Zilean.png",
+      "description": "Once a powerful Icathian mage, Zilean became obsessed with the passage of time after witnessing his homeland's destruction by the Void. Unable to spare even a minute to grieve the catastrophic loss, he called upon ancient temporal magic to divine all possible outcomes. Having become functionally immortal, Zilean now drifts through the past, present, and future, bending and warping the flow of time around him, always searching for that elusive moment that will turn back the clock and undo Icathia's destruction.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Support",
+        "Carry"
+      ],
+      "roles": [
+        "Support"
+      ],
+      "complexity": 2,
+      "id": 299
+    },
+    {
+      "name": "Zoe",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Zoe.png",
+      "description": "As the embodiment of mischief, imagination, and change, Zoe acts as the cosmic messenger of Targon, heralding major events that reshape worlds. Her mere presence warps the arcane mathematics governing realities, sometimes causing cataclysms without conscious effort or malice. This perhaps explains the breezy nonchalance with which Zoe approaches her duties, giving her plenty of time to focus on playing games, tricking mortals, or otherwise amusing herself. An encounter with Zoe can be joyous and life affirming, but it is always more than it appears and often extremely dangerous.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 2,
+      "id": 300
+    },
+    {
+      "name": "Zyra",
+      "game": "Lol",
+      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Zyra.png",
+      "description": "Born in an ancient, sorcerous catastrophe, Zyra is the wrath of nature given form—an alluring hybrid of plant and human, kindling new life with every step. She views the many mortals of Valoran as little more than prey for her seeded progeny, and thinks nothing of slaying them with flurries of deadly spines. Though her true purpose has not been revealed, Zyra wanders the world, indulging her most primal urges to colonize, and strangle all other life from it.",
+      "primary_attr": "AP",
+      "attack_type": [
+        "Ranged"
+      ],
+      "classes": [
+        "Support",
+        "Carry"
+      ],
+      "roles": [
+        "Mage"
+      ],
+      "complexity": 2,
+      "id": 301
     }
   ]
 }
