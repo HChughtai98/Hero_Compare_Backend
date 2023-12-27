@@ -6,7 +6,7 @@
       "image": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_vert.jpg",
       "description": "Some Text",
       "primary_attr": "agi",
-      "attack_type": ["Melee"],
+      "attack_type": ["Melee", "Test"],
       "roles": ["Carry", "Escape", "Nuker"]
     },
     {
