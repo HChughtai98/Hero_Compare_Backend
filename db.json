@@ -1390,6 +1390,8 @@
       "game": "lol",
       "name": "Aatrox",
       "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
+      "background": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+      "description": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Tank", "Carry"],
@@ -1399,7 +1401,8 @@
     {
       "name": "Ahri",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ahri.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1259276b6d1efa78/5db05fa86e8b0c6d038c5ca2/RiotX_ChampionList_ahri.jpg?quality=90&width=250",
+      "description": "Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1410,7 +1413,8 @@
     {
       "name": "Akali",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Akali.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1421,7 +1425,8 @@
     {
       "name": "Akshan",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Akshan.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdd84b33ec501c137/60f9ede33f40e5481e85c0c6/RiotX_ChampionList_akshan_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1432,7 +1437,8 @@
     {
       "name": "Alistar",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Alistar.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3b366925d2fd8fdb/5db05fa856458c6b3fc1750b/RiotX_ChampionList_alistar.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Tank", "Support"],
@@ -1443,7 +1449,8 @@
     {
       "name": "Amumu",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Amumu.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt40dfbe48a61c439f/5db05fa80b39e86c2f83dbf9/RiotX_ChampionList_amumu.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Tank"],
@@ -1454,7 +1461,8 @@
     {
       "name": "Anivia",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Anivia.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3d24a1482453088a/5db05fa8df78486c826dcce8/RiotX_ChampionList_anivia.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1465,7 +1473,8 @@
     {
       "name": "Annie",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Annie.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt28c708665427aef6/5db05fa89481396d6bdd01a6/RiotX_ChampionList_annie.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1476,7 +1485,8 @@
     {
       "name": "Aphelios",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Aphelios.png ",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1487,7 +1497,8 @@
     {
       "name": "Ashe",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ashe.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt943aae038e2dee98/5db05fa8e9effa6ba5295f91/RiotX_ChampionList_ashe.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1498,7 +1509,8 @@
     {
       "name": "Aurelion Sol",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/AurelionSol.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5dd3569fc67d6664/5db05fa8bd24496c390ae4d8/RiotX_ChampionList_aurelionsol.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1509,7 +1521,8 @@
     {
       "name": "Azir",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Azir.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0e3f847946232167/5db05fa889fb926b491ed7ff/RiotX_ChampionList_azir.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1520,7 +1533,8 @@
     {
       "name": "Bard",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Bard.png ",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbbe3ce0c0ae1305b/5db05fb23a326d6df6c0e7b3/RiotX_ChampionList_bard.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Support"],
@@ -1531,7 +1545,8 @@
     {
       "name": "Bel'Veth",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.9/game/assets/characters/belveth/hud/belveth_square_0.belveth.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9f765d79de67f50e/629ea266a3e9730f695d114a/RiotX_ChampionList_belveth.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1542,7 +1557,8 @@
     {
       "name": "Blitzcrank",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Blitzcrank.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd7ef7e56ce1fe17b/5db05fb26af83b6d7032c8f8/RiotX_ChampionList_blitzcrank.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Support", "Tank"],
@@ -1553,7 +1569,8 @@
     {
       "name": "Brand",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Brand.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc8ca2e9bba653dda/5db05fb2dc674266df3d5d30/RiotX_ChampionList_brand.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1564,7 +1581,8 @@
     {
       "name": "Braum",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Braum.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd140e30fa86d6ddd/5db05fb2242f426df132f95d/RiotX_ChampionList_braum.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Tank", "Support"],
@@ -1575,7 +1593,8 @@
     {
       "name": "Briar",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/briar/hud/briar_square_0.briar.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8d315d0ddcc546e6/64ffcd579e7ba67795caac6e/RiotX_ChampionList_briar_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1586,7 +1605,8 @@
     {
       "name": "Caitlyn",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Caitlyn.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt014f4b6fc9bacd10/61b1eb901d158d4007de9685/RiotX_ChampionList_caitlyn_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1597,7 +1617,8 @@
     {
       "name": "Camille",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Camille.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt413fcd7681fe0773/5db05fb089fb926b491ed805/RiotX_ChampionList_camille.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1608,7 +1629,8 @@
     {
       "name": "Cassiopeia",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Cassiopeia.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte189be8189da97ea/5db05fb1bd24496c390ae4de/RiotX_ChampionList_cassiopeia.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1619,7 +1641,8 @@
     {
       "name": "Cho'Gath",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Chogath.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4dfb71de3ddc8166/5db05fb13a326d6df6c0e7ad/RiotX_ChampionList_chogath.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Tank"],
@@ -1630,7 +1653,8 @@
     {
       "name": "Corki",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Corki.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdd918c4d0a86347a/5db05fb1df78486c826dccee/RiotX_ChampionList_corki.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1641,7 +1665,8 @@
     {
       "name": "Darius",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Darius.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt38b52be4a2cb1004/5db05fb19481396d6bdd01ac/RiotX_ChampionList_darius.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1652,7 +1677,8 @@
     {
       "name": "Diana",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Diana.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt56570083d2a5e20e/5db05fbc823d426762825fdf/RiotX_ChampionList_diana.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1663,7 +1689,8 @@
     {
       "name": "Dr.Mundo",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/DrMundo.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte88a3d7e9e408904/61b1ea136a78b87751002a68/RiotX_ChampionList_drmundo_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Tank"],
@@ -1674,7 +1701,8 @@
     {
       "name": "Draven",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Draven.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0be728e4cbb8f2a/5db05fbc89fb926b491ed80b/RiotX_ChampionList_draven.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1685,7 +1713,8 @@
     {
       "name": "Ekko",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ekko.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf22ba7e6328e4376/5db05fbd242f426df132f963/RiotX_ChampionList_ekko.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1696,7 +1725,8 @@
     {
       "name": "Elise",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Elise.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfe21ff2ddb84d5d1/5db05fbd0b39e86c2f83dc05/RiotX_ChampionList_elise.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee", "Ranged"],
       "classes": ["Carry"],
@@ -1707,7 +1737,8 @@
     {
       "name": "Evelynn",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Evelynn.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte24b4c6ec1beebb9/5db05fbddf78486c826dccf4/RiotX_ChampionList_evelynn.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1718,7 +1749,8 @@
     {
       "name": "Ezreal",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ezreal.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt60f687c95425f73f/5db05fbd2dc72966da746704/RiotX_ChampionList_ezreal.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1729,7 +1761,8 @@
     {
       "name": "Fiddlesticks",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Fiddlesticks.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1151ac1242311053/61b1ea65aeb5451282be2468/RiotX_ChampionList_fiddlesticks_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1738,9 +1771,22 @@
       "id": 170
     },
     {
+      "name": "Fiora",
+      "game": "Lol",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt935dd149b2617ac8/5db05fbcdc674266df3d5d36/RiotX_ChampionList_fiora.jpg?quality=90&width=250",
+      "description": "",
+      "primary_attr": "AD",
+      "attack_type": ["Melee"],
+      "classes": ["Carry"],
+      "roles": ["Fighter"],
+      "complexity": 1,
+      "id": 302
+    },
+    {
       "name": "Fizz",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Fizz.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6000fa69e03c25c0/5db05fbc56458c6b3fc17513/RiotX_ChampionList_fizz.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1751,7 +1797,8 @@
     {
       "name": "Galio",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Galio.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5890d1ab5c8be01f/5db05fc6823d426762825fe5/RiotX_ChampionList_galio.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Tank", "Carry"],
@@ -1762,7 +1809,8 @@
     {
       "name": "Gangplank",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Gangplank.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfdff3781ccfb2a5c/5db05fc689fb926b491ed811/RiotX_ChampionList_gangplank.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1773,7 +1821,8 @@
     {
       "name": "Garen",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Garen.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte41a162aed9339b7/5db05fc60b39e86c2f83dc0d/RiotX_ChampionList_garen.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1784,7 +1833,8 @@
     {
       "name": "Gnar",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Gnar.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta80f79dd96ee5d30/5db05fc6df78486c826dcd00/RiotX_ChampionList_gnar.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee", "Ranged"],
       "classes": ["Carry", "Tank"],
@@ -1793,9 +1843,22 @@
       "id": 175
     },
     {
+      "name": "Gragas",
+      "game": "Lol",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt795841adba722f85/5db05fc43a326d6df6c0e7b9/RiotX_ChampionList_gragas.jpg?quality=90&width=250",
+      "description": "",
+      "primary_attr": "AP",
+      "attack_type": ["Melee"],
+      "classes": ["Carry", "Tank"],
+      "roles": ["Fighter"],
+      "complexity": 2,
+      "id": 303
+    },
+    {
       "name": "Graves",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Graves.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2e7cd286d7b6182e/5e9a59c245a2a97194a1d4c7/RiotX_ChampionList_graves-cigar.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1806,7 +1869,8 @@
     {
       "name": "Gwen",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Gwen.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7a3d6c549708c048/607496eb1f74bb759da6a062/RiotX_ChampionList_gwen.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
       "classes": ["Carry"],
@@ -1817,7 +1881,8 @@
     {
       "name": "Hecarim",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Hecarim.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blteb9ce5304ec48e19/64e66ee369d0a3935bf5068a/RiotX_ChampionList_hecarim_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1828,7 +1893,8 @@
     {
       "name": "Heimerdinger",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Heimerdinger.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd30d85446d154070/5db05fc57d28b76cfe4397ef/RiotX_ChampionList_heimerdinger.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1839,7 +1905,8 @@
     {
       "name": "Hwei",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/hwei/hud/hwei_square_0.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc7b700627f2bb3c0/65691deb7c56dd1bd9a61c97/RiotX_ChampionList_hwei_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1850,7 +1917,8 @@
     {
       "name": "Illaoi",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Illaoi.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc44e90a5547120a2/5db05fc5347d1c6baa57be2b/RiotX_ChampionList_illaoi.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1861,7 +1929,8 @@
     {
       "name": "Irelia",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Irelia.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf5f2b8de93870aef/5db05fcea6470d6ab91ce59a/RiotX_ChampionList_irelia.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1872,7 +1941,8 @@
     {
       "name": "Ivern",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Ivern.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5fff73e1df1873de/5db05fce7d28b76cfe4397f5/RiotX_ChampionList_ivern.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Support"],
@@ -1883,7 +1953,8 @@
     {
       "name": "Janna",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Janna.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt02bf5329f8abe45d/5db05fcedf78486c826dcd06/RiotX_ChampionList_janna.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
       "classes": ["Support"],
@@ -1894,7 +1965,8 @@
     {
       "name": "Jarvan VI",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/jarvaniv/hud/jarvaniv_square_0.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5898626d7016d222/5db05fcfdc674266df3d5d3c/RiotX_ChampionList_jarvaniv.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Tank"],
@@ -1905,7 +1977,8 @@
     {
       "name": "Jax",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jax.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6b301613598c3f17/6529efbb8adde57f76f78c90/RiotX_ChampionList_jax_v2.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Carry", "Tank"],
@@ -1916,7 +1989,8 @@
     {
       "name": "Jayce",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jayce.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt51557edc36ad88a1/5db05fcf0b39e86c2f83dc13/RiotX_ChampionList_jayce.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Melee", "Ranged"],
       "classes": ["Carry"],
@@ -1927,7 +2001,7 @@
     {
       "name": "Jhin",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jhin.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbf6c70d9272a5a2a/5db05fcfe9d7526ab429e532/RiotX_ChampionList_jhin.jpg?quality=90&width=250",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1938,7 +2012,8 @@
     {
       "name": "Jinx",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Jinx.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta2cba784d9fad4b8/5db05fce89fb926b491ed817/RiotX_ChampionList_jinx.jpg?quality=90&width=250",
+      "description": "",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
       "classes": ["Carry"],
@@ -1949,7 +2024,7 @@
     {
       "name": "K'Sante",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/ksante/hud/ksante_square_0.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte7545766d0c1e829/636048e02d878355fecde0ee/RiotX_ChampionList_ksante.jpg?quality=90&width=250",
       "description": "Defiant and courageous, K'Sante battles colossal beasts and ruthless Ascended to protect his home of Nazumah, a coveted oasis amid the sands of Shurima. But after a falling-out with his former partner, K'Sante realizes that in order to become a warrior worthy of leading his city, he must temper his single-minded drive for success. Only then can he avoid falling prey to his own pride and find the wisdom he needs to defeat the vicious monsters threatening his people.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -1961,7 +2036,7 @@
     {
       "name": "Kai'Sa",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/kaisa/hud/kaisa_square.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte38dc660dfe79204/5db05fce2dc72966da74670c/RiotX_ChampionList_kaisa.jpg?quality=90&width=250",
       "description": "Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together… or simply to forget, as the Void consumes the world that left her behind.",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
@@ -1973,7 +2048,7 @@
     {
       "name": "Kalista",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kalista.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb7f0196921c74e8c/5db05fcee9d7526ab429e52c/RiotX_ChampionList_kalista.jpg?quality=90&width=250",
       "description": "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing to pay with their very souls. Those who become the focus of Kalista's wrath should make their final peace, for any pact sealed with this grim hunter can only end with the cold, piercing fire of her soul-spears.",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
@@ -1985,7 +2060,7 @@
     {
       "name": "Karma",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Karma.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39748c7b67252d6f/5db05fd70b39e86c2f83dc19/RiotX_ChampionList_karma.jpg?quality=90&width=250",
       "description": "No mortal exemplifies the spiritual traditions of Ionia more than Karma. She is the living embodiment of an ancient soul reincarnated countless times, carrying all her accumulated memories into each new life, and blessed with power that few can comprehend. She has done her best to guide her people in recent times of crisis, though she knows that peace and harmony may come only at a considerable cost—both to her, and to the land she holds most dear.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -1997,7 +2072,7 @@
     {
       "name": "Karthus",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Karthus.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt69b8fad9d1e78514/5db05fd7df78486c826dcd0c/RiotX_ChampionList_karthus.jpg?quality=90&width=250",
       "description": "The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of life and death. When Karthus emerges from the Shadow Isles, it is to bring the joy of death to mortals, an apostle of the unliving.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2009,7 +2084,7 @@
     {
       "name": "Kassadin",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kassadin.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20773f2f67e00a74/636ead3d105477785e890c1b/RiotX_ChampionList_kassadin.jpg?quality=90&width=250",
       "description": "Cutting a burning swath through the darkest places of the world, Kassadin knows his days are numbered. A widely traveled Shuriman guide and adventurer, he had chosen to raise a family among the peaceful southern tribes—until the day his village was consumed by the Void. He vowed vengeance, combining a number of arcane artifacts and forbidden technologies for the struggle ahead. Finally, Kassadin set out for the wastelands of Icathia, ready to face any monstrous Void-construct in his search for their self-proclaimed prophet, Malzahar.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2021,7 +2096,7 @@
     {
       "name": "Katarina",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Katarina.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb73e3edb5937676a/5db05fd7823d426762825feb/RiotX_ChampionList_katarina.jpg?quality=90&width=250",
       "description": "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven her to pursue heavily-guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2033,7 +2108,7 @@
     {
       "name": "Kayle",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kayle.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2c7675893b5c76bc/61b1ed442d06ff39b6c6336b/RiotX_ChampionList_kayle_v4.jpg?quality=90&width=250",
       "description": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return…",
       "primary_attr": "AP",
       "attack_type": ["Melee", "Ranged"],
@@ -2045,7 +2120,7 @@
     {
       "name": "Kayn",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kayn.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt64edf2d3729b57c1/5db05fd656458c6b3fc17519/RiotX_ChampionList_kayn.jpg?quality=90&width=250",
       "description": "A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny—to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of his body and mind. There are only two possible outcomes: either Kayn bends the weapon to his will... or the malevolent blade consumes him completely, paving the way for the destruction of all Runeterra.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2057,7 +2132,7 @@
     {
       "name": "Kennen",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kennen.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc87932e656d1076e/5db05fd6adc8656c7d24e7dc/RiotX_ChampionList_kennen.jpg?quality=90&width=250",
       "description": "More than just the lightning-quick enforcer of Ionian balance, Kennen is the only yordle member of the Kinkou. Despite his small, furry stature, he is eager to take on any threat with a whirling storm of shuriken and boundless enthusiasm. Alongside his master Shen, Kennen patrols the spirit realm, employing devastating electrical energy to strike down his enemies.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2069,7 +2144,7 @@
     {
       "name": "Kha'Zix",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Khazix.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt363d7d62846ffc87/5db05fd6e9effa6ba5295f9f/RiotX_ChampionList_khazix.jpg?quality=90&width=250",
       "description": "The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha'Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more effective ways to counter and kill its prey. Initially a mindless beast, Kha'Zix's intelligence has developed as much as its form. Now, the creature plans out its hunts, and even utilizes the visceral terror it engenders in its victims.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2081,7 +2156,7 @@
     {
       "name": "Kindred",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kindred.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0f0007660b7a07b/5db05fd689fb926b491ed823/RiotX_ChampionList_kindred.jpg?quality=90&width=250",
       "description": "Separate, but never parted, Kindred represents the twin essences of death. Lamb's bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred's nature vary across Runeterra, every mortal must choose the true face of their death.",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
@@ -2093,7 +2168,7 @@
     {
       "name": "Kled",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kled.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1670a0dd8fd5edca/5db05fd66e8b0c6d038c5ca8/RiotX_ChampionList_kled.jpg?quality=90&width=250",
       "description": "A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. He is an icon beloved by the empire's soldiers, distrusted by its officers, and loathed by the nobility. Many claim Kled has fought in every campaign the legions have waged, has “acquired” every military title, and has never once backed down from a fight. Though the truth of the matter is often questionable, one part of his legend is undeniable: Charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what's his… and to take whatever he can get.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2105,7 +2180,7 @@
     {
       "name": "Kog'Maw",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/kogmaw/hud/kogmaw_square_0.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf483c8f812369fa/5db05fde823d426762825ff1/RiotX_ChampionList_kogmaw.jpg?quality=90&width=250",
       "description": "Belched forth from a rotting Void incursion deep in the wastelands of Icathia, Kog'Maw is an inquisitive yet putrid creature with a caustic, gaping mouth. This particular Void-spawn needs to gnaw and drool on anything within reach to truly understand it. Though not inherently evil, Kog'Maw's beguiling naiveté is dangerous, as it often precedes a feeding frenzy—not for sustenance, but to satisfy its unending curiosity.",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
@@ -2117,7 +2192,7 @@
     {
       "name": "Leblanc",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Leblanc.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4aaf881bb90b509f/5db05fde6e8b0c6d038c5cae/RiotX_ChampionList_leblanc.jpg?quality=90&width=250",
       "description": "Mysterious even to other members of the Black Rose cabal, LeBlanc is but one of many names for a pale woman who has manipulated people and events since the earliest days of Noxus. Using her magic to mirror herself, the sorceress can appear to anyone, anywhere, and even be in many places at once. Always plotting just out of sight, LeBlanc's true motives are as inscrutable as her shifting identity.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2129,7 +2204,7 @@
     {
       "name": "Lee Sin",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/LeeSin.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt075d278529811445/5db05fde6af83b6d7032c8fe/RiotX_ChampionList_leesin.jpg?quality=90&width=250",
       "description": "A master of Ionia's ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2141,7 +2216,7 @@
     {
       "name": "Leona",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Leona.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8d46ada03ea1da8c/5db05fdf347d1c6baa57be31/RiotX_ChampionList_leona.jpg?quality=90&width=250",
       "description": "Imbued with the fire of the sun, Leona is a holy warrior of the Solari who defends Mount Targon with her Zenith Blade and the Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her. Armored in gold and bearing a terrible burden of ancient knowledge, Leona brings enlightenment to some, death to others.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2153,7 +2228,7 @@
     {
       "name": "Lillia",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lillia.png",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
       "description": "Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2165,7 +2240,7 @@
     {
       "name": "Lissandra",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lissandra.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08f869e897566c5b/5db05fdf7d28b76cfe439801/RiotX_ChampionList_lissandra.jpg?quality=90&width=250",
       "description": "Lissandra's magic twists the pure power of ice into something dark and terrible. With the force of her black ice, she does more than freeze—she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ''The Ice Witch.'' The truth is much more sinister: Lissandra is a corruptor of nature who plots to unleash an ice age on the world.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2177,7 +2252,7 @@
     {
       "name": "Lucian",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lucian.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3db0d62352b0b4f1/5db05fdf6e8b0c6d038c5cb4/RiotX_ChampionList_lucian.jpg?quality=90&width=250",
       "description": "Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist.",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
@@ -2189,7 +2264,7 @@
     {
       "name": "Lulu",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lulu.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt424f04814efb3aca/5db05fdfe9d7526ab429e538/RiotX_ChampionList_lulu.jpg?quality=90&width=250",
       "description": "The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2201,7 +2276,7 @@
     {
       "name": "Lux",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Lux.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb94b4161d8022c45/5db05fdfe9d7526ab429e53c/RiotX_ChampionList_lux.jpg?quality=90&width=250",
       "description": "Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2213,7 +2288,7 @@
     {
       "name": "Malphite",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Malphite.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4d3b4a7e4c44ced7/5db05fdeadc8656c7d24e7e2/RiotX_ChampionList_malaphite.jpg?quality=90&width=250",
       "description": "A massive creature of living stone, Malphite struggles to impose blessed order on a chaotic world. Birthed as a servitor-shard to an otherworldly obelisk known as the Monolith, he used his tremendous elemental strength to maintain and protect his progenitor, but ultimately failed. The only survivor of the destruction that followed, Malphite now endures Runeterra's soft folk and their fluid temperaments, while struggling to find a new role worthy of the last of his kind.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2225,7 +2300,7 @@
     {
       "name": "Malzahar",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Malzahar.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd58a3a2bf5035834/5db05fde0b39e86c2f83dc1f/RiotX_ChampionList_malzahar.jpg?quality=90&width=250",
       "description": "A zealous seer dedicated to the unification of all life, Malzahar truly believes the newly emergent Void to be the path to Runeterra's salvation. In the desert wastes of Shurima, he followed the voices that whispered in his mind, all the way to ancient Icathia. Amidst the ruins of that land, he gazed into the dark heart of the Void itself, and was gifted new power and purpose. Malzahar now sees himself as a shepherd, empowered to bring others into the fold… or to release the voidling creatures that dwell beneath.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2237,7 +2312,7 @@
     {
       "name": "Maokai",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Maokai.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt757d0e8855d51e03/5db05fe72140ec675d68f4a1/RiotX_ChampionList_maokai.jpg?quality=90&width=250",
       "description": "Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical cataclysm destroyed his home, surviving undeath only through the Waters of Life infused within his heartwood. Once a peaceful nature spirit, Maokai now furiously battles to banish the scourge of unlife from the Shadow Isles and restore his home to its former beauty.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2249,7 +2324,7 @@
     {
       "name": "Master Yi",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MasterYi.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt46e861d7e6c0ab0c/5db05fe8df78486c826dcd12/RiotX_ChampionList_masteryi.jpg?quality=90&width=250",
       "description": "Master Yi has tempered his body and sharpened his mind, so that thought and action have become almost as one. Though he chooses to enter into violence only as a last resort, the grace and speed of his blade ensures resolution is always swift. As one of the last living practitioners of the Ionian art of Wuju, Yi has devoted his life to continuing the legacy of his people—scrutinizing potential new disciples with the Seven Lenses of Insight to identify the most worthy among them.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2261,7 +2336,7 @@
     {
       "name": "Milio",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/milio/hud/milio_square_0.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd121d6fdcdfd3be1/641bae294bda7e23ae9281f9/RiotX_ChampionList_milio.jpg?quality=90&width=250",
       "description": "Milio is a warmhearted boy from Ixtal who has, despite his young age, mastered the fire axiom and discovered something new: soothing fire. With this newfound power, Milio plans to help his family escape their exile by joining the Yun Tal—just like his grandmother once did. Having traveled through the Ixtal jungles to the capital of Ixaocan, Milio now prepares to face the Vidalion and join the Yun Tal, unaware of the trials—and dangers—that await him.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2273,7 +2348,7 @@
     {
       "name": "Miss Fortune",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/MissFortune.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf36fa7fd7ecb59fb/5db05fe89481396d6bdd01b8/RiotX_ChampionList_missfortune.jpg?quality=90&width=250",
       "description": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts.",
       "primary_attr": "AD",
       "attack_type": ["Ranged"],
@@ -2285,7 +2360,7 @@
     {
       "name": "Mordekaiser",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Mordekaiser.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7683195e1c4f6706/621ed30fba043c4a2c4a9f7a/RiotX_ChampionList_mordekaiser_v2.jpg?quality=90&width=250",
       "description": "Twice slain and thrice born, Mordekaiser is a brutal warlord from a foregone epoch who uses his necromantic sorcery to bind souls into an eternity of servitude. Few now remain who remember his earlier conquests, or know the true extent of his powers—but there are some ancient souls that do, and they fear the day when he may return to claim dominion over both the living and the dead.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2297,7 +2372,7 @@
     {
       "name": "Morgana",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Morgana.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc81eece55f126d2d/5db05fe86af83b6d7032c904/RiotX_ChampionList_morgana.jpg?quality=90&width=250",
       "description": "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2309,7 +2384,7 @@
     {
       "name": "Naafiri",
       "game": "Lol",
-      "image": "https://raw.communitydragon.org/13.24/game/assets/characters/naafiri/hud/naafiri_square.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08b4cd0a1ca05cd3/64b8cd3bff3e9b769c4d7646/RiotX_ChampionList_naafiri.jpg?quality=90&width=250",
       "description": "Across the sands of Shurima, a chorus of howls rings out. It is the call of the dune hounds, voracious predators who form packs and compete for the right to hunt in these barren lands. Among them, one pack stands above all, for they are driven not only by canine instincts, but by the ancient power of the Darkin.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2321,7 +2396,7 @@
     {
       "name": "Nami",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nami.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt13bec39f49dc35ee/5db05fe956458c6b3fc1751f/RiotX_ChampionList_nami.jpg?quality=90&width=250",
       "description": "A headstrong young vastaya of the seas, Nami was the first of the Marai tribe to leave the waves and venture onto dry land, when their ancient accord with the Targonians was broken. With no other option, she took it upon herself to complete the sacred ritual that would ensure the safety of her people. Amidst the chaos of this new age, Nami faces an uncertain future with grit and determination, using her Tidecaller staff to summon the strength of the oceans themselves.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2333,7 +2408,7 @@
     {
       "name": "Nasus",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nasus.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20a4b154b1756b56/5db05fe7a6470d6ab91ce5a0/RiotX_ChampionList_nasus.jpg?quality=90&width=250",
       "description": "Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and peerless strategist whose wisdom guided the ancient empire of Shurima to greatness for many centuries. After the fall of the empire, he went into self-imposed exile, becoming little more than a legend. Now that the ancient city of Shurima has risen once more, he has returned, determined to ensure it never falls again.",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
@@ -2345,7 +2420,7 @@
     {
       "name": "Nautilus",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nautilus.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf945a57aa16cea57/5db05fe7347d1c6baa57be37/RiotX_ChampionList_nautilus.jpg?quality=90&width=250",
       "description": "A lonely legend as old as the first piers sunk in Bilgewater, the armored goliath known as Nautilus roams the dark waters off the coast of the Blue Flame Isles. Driven by a forgotten betrayal, he strikes without warning, swinging his enormous anchor to save the wretched, and drag the greedy to their doom. It is said he comes for those who forget to pay the “Bilgewater tithe”, pulling them down beneath the waves with him—an iron-clad reminder that none can escape the depths.",
       "primary_attr": "AP",
       "attack_type": ["Melee"],
@@ -2357,7 +2432,7 @@
     {
       "name": "Neeko",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Neeko.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta62eaac6ad26a4f5/5db05fe7adc8656c7d24e7ea/RiotX_ChampionList_neeko.jpg?quality=90&width=250",
       "description": "Hailing from a long lost tribe of vastaya, Neeko can blend into any crowd by borrowing the appearances of others, even absorbing something of their emotional state to tell friend from foe in an instant. No one is ever sure where—or who—Neeko might be, but those who intend to do her harm will soon witness her true colors revealed, and feel the full power of her primordial spirit magic unleashed upon them.",
       "primary_attr": "AP",
       "attack_type": ["Ranged"],
@@ -2369,7 +2444,7 @@
     {
       "name": "Nidalee",
       "game": "Lol",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Nidalee.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5a2da06d413f7c15/5db05ff1df78486c826dcd18/RiotX_ChampionList_nidalee.jpg?quality=90&width=250",
       "description": "Raised in the deepest jungle, Nidalee is a master tracker who can shapeshift into a ferocious cougar at will. Neither wholly woman nor beast, she viciously defends her territory from any and all trespassers, with carefully placed traps and deft spear throws. She cripples her quarry before pouncing on them in feline form—the lucky few who survive tell tales of a wild woman with razor-sharp instincts, and even sharper claws...",
       "primary_attr": "AP",
       "attack_type": ["Ranged", "Melee"],
