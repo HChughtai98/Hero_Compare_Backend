@@ -1389,7 +1389,7 @@
       "id": 139,
       "game": "lol",
       "name": "Aatrox",
-      "image": "https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Aatrox.png",
+      "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
       "primary_attr": "AD",
       "attack_type": ["Melee"],
       "classes": ["Tank", "Carry"],
