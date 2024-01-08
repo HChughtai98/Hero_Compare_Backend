@@ -1511,9 +1511,8 @@
       "complexity": 1
     },
     {
-      "id": 125,
-      "game": "lol",
       "name": "Aatrox",
+      "game": "Lol",
       "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
       "background": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
       "description": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.",
@@ -1521,7 +1520,8 @@
       "attack_type": ["Melee"],
       "classes": ["Tank", "Carry"],
       "roles": ["Fighter"],
-      "complexity": 2
+      "complexity": 2,
+      "id": 125
     },
     {
       "name": "Ahri",
