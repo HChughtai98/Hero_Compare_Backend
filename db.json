@@ -21,7 +21,7 @@
       "description": "One by one the soldiers of the Red Mist fell, some in battle, others to Mogul Khan's ambitions, until the self-declared general found himself a commander without troops. No matter, Axe thought, For a one-man army is the best army of all. — Leaping into battle, Mogul Khan compels nearby foes to attack him with a taunting Berserker's Call. Absorbing blows from every direction, the indomitable Axe reacts by swinging his axe full circle in a Counter Helix, easily dispatching the swarm he had gathered. But alas, not all stay long enough to meet their end. The few limping away from Mogul Khan feel an inexplicable Battle Hunger, a hunger never sated before Axe slams his Culling Blade through a weakened enemy, sending them to an early grave. Axe, Axe is always charging onward. ",
       "primary_attr": "str",
       "attack_type": "Melee",
-      "roles": ["Initiator", "Durable", "Disabler", "Carry"],
+      "roles": ["Tank"],
       "complexity": 1
     },
     {
@@ -1511,7 +1511,7 @@
       "complexity": 1
     },
     {
-      "id": 139,
+      "id": 125,
       "game": "lol",
       "name": "Aatrox",
       "image": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
@@ -1534,7 +1534,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 140
+      "id": 126
     },
     {
       "name": "Akali",
@@ -1547,7 +1547,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 141
+      "id": 127
     },
     {
       "name": "Akshan",
@@ -1560,7 +1560,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 1,
-      "id": 142
+      "id": 128
     },
     {
       "name": "Alistar",
@@ -1573,7 +1573,7 @@
       "classes": ["Tank", "Support"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 143
+      "id": 129
     },
     {
       "name": "Amumu",
@@ -1586,7 +1586,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 1,
-      "id": 144
+      "id": 130
     },
     {
       "name": "Anivia",
@@ -1599,7 +1599,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 145
+      "id": 131
     },
     {
       "name": "Annie",
@@ -1612,7 +1612,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 146
+      "id": 132
     },
     {
       "name": "Aphelios",
@@ -1625,7 +1625,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 3,
-      "id": 147
+      "id": 133
     },
     {
       "name": "Ashe",
@@ -1638,7 +1638,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 1,
-      "id": 148
+      "id": 134
     },
     {
       "name": "Aurelion Sol",
@@ -1651,7 +1651,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 149
+      "id": 135
     },
     {
       "name": "Azir",
@@ -1664,7 +1664,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 150
+      "id": 136
     },
     {
       "name": "Bard",
@@ -1677,7 +1677,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 3,
-      "id": 151
+      "id": 137
     },
     {
       "name": "Bel'Veth",
@@ -1690,7 +1690,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 152
+      "id": 138
     },
     {
       "name": "Blitzcrank",
@@ -1703,7 +1703,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 153
+      "id": 139
     },
     {
       "name": "Brand",
@@ -1716,7 +1716,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 154
+      "id": 140
     },
     {
       "name": "Braum",
@@ -1729,7 +1729,7 @@
       "classes": ["Tank", "Support"],
       "roles": ["Support"],
       "complexity": 1,
-      "id": 155
+      "id": 141
     },
     {
       "name": "Briar",
@@ -1742,7 +1742,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 156
+      "id": 142
     },
     {
       "name": "Caitlyn",
@@ -1755,7 +1755,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 157
+      "id": 143
     },
     {
       "name": "Camille",
@@ -1768,7 +1768,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 158
+      "id": 144
     },
     {
       "name": "Cassiopeia",
@@ -1781,7 +1781,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 159
+      "id": 145
     },
     {
       "name": "Cho'Gath",
@@ -1794,7 +1794,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 160
+      "id": 146
     },
     {
       "name": "Corki",
@@ -1807,7 +1807,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 161
+      "id": 147
     },
     {
       "name": "Darius",
@@ -1820,7 +1820,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 162
+      "id": 148
     },
     {
       "name": "Diana",
@@ -1833,7 +1833,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 163
+      "id": 149
     },
     {
       "name": "Dr.Mundo",
@@ -1846,7 +1846,7 @@
       "classes": ["Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 164
+      "id": 150
     },
     {
       "name": "Draven",
@@ -1859,7 +1859,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 3,
-      "id": 165
+      "id": 151
     },
     {
       "name": "Ekko",
@@ -1872,7 +1872,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 166
+      "id": 152
     },
     {
       "name": "Elise",
@@ -1885,7 +1885,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 167
+      "id": 153
     },
     {
       "name": "Evelynn",
@@ -1898,7 +1898,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 168
+      "id": 154
     },
     {
       "name": "Ezreal",
@@ -1911,7 +1911,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 169
+      "id": 155
     },
     {
       "name": "Fiddlesticks",
@@ -1924,7 +1924,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 170
+      "id": 156
     },
     {
       "name": "Fiora",
@@ -1937,7 +1937,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 302
+      "id": 157
     },
     {
       "name": "Fizz",
@@ -1950,7 +1950,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 171
+      "id": 158
     },
     {
       "name": "Galio",
@@ -1963,7 +1963,7 @@
       "classes": ["Tank", "Carry"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 172
+      "id": 159
     },
     {
       "name": "Gangplank",
@@ -1976,7 +1976,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 173
+      "id": 160
     },
     {
       "name": "Garen",
@@ -1989,7 +1989,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 174
+      "id": 161
     },
     {
       "name": "Gnar",
@@ -2002,7 +2002,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 175
+      "id": 162
     },
     {
       "name": "Gragas",
@@ -2015,7 +2015,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 303
+      "id": 163
     },
     {
       "name": "Graves",
@@ -2028,7 +2028,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 1,
-      "id": 176
+      "id": 164
     },
     {
       "name": "Gwen",
@@ -2041,7 +2041,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 177
+      "id": 165
     },
     {
       "name": "Hecarim",
@@ -2054,7 +2054,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 178
+      "id": 166
     },
     {
       "name": "Heimerdinger",
@@ -2067,7 +2067,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 179
+      "id": 167
     },
     {
       "name": "Hwei",
@@ -2080,7 +2080,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 180
+      "id": 168
     },
     {
       "name": "Illaoi",
@@ -2093,7 +2093,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 181
+      "id": 169
     },
     {
       "name": "Irelia",
@@ -2106,7 +2106,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 182
+      "id": 170
     },
     {
       "name": "Ivern",
@@ -2119,7 +2119,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 183
+      "id": 171
     },
     {
       "name": "Janna",
@@ -2132,7 +2132,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 184
+      "id": 172
     },
     {
       "name": "Jarvan VI",
@@ -2145,7 +2145,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 185
+      "id": 173
     },
     {
       "name": "Jax",
@@ -2158,7 +2158,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 186
+      "id": 174
     },
     {
       "name": "Jayce",
@@ -2171,7 +2171,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 187
+      "id": 175
     },
     {
       "name": "Jhin",
@@ -2184,7 +2184,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 188
+      "id": 176
     },
     {
       "name": "Jinx",
@@ -2197,7 +2197,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 189
+      "id": 177
     },
     {
       "name": "K'Sante",
@@ -2210,7 +2210,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 3,
-      "id": 190
+      "id": 178
     },
     {
       "name": "Kai'Sa",
@@ -2223,7 +2223,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 191
+      "id": 179
     },
     {
       "name": "Kalista",
@@ -2236,7 +2236,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 192
+      "id": 180
     },
     {
       "name": "Karma",
@@ -2249,7 +2249,7 @@
       "classes": ["Support", "Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 193
+      "id": 181
     },
     {
       "name": "Karthus",
@@ -2262,7 +2262,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 194
+      "id": 182
     },
     {
       "name": "Kassadin",
@@ -2275,7 +2275,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 195
+      "id": 183
     },
     {
       "name": "Katarina",
@@ -2288,7 +2288,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 196
+      "id": 184
     },
     {
       "name": "Kayle",
@@ -2301,7 +2301,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 197
+      "id": 185
     },
     {
       "name": "Kayn",
@@ -2314,7 +2314,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 198
+      "id": 186
     },
     {
       "name": "Kennen",
@@ -2327,7 +2327,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 199
+      "id": 187
     },
     {
       "name": "Kha'Zix",
@@ -2340,7 +2340,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 200
+      "id": 188
     },
     {
       "name": "Kindred",
@@ -2353,7 +2353,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 201
+      "id": 189
     },
     {
       "name": "Kled",
@@ -2366,7 +2366,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 202
+      "id": 190
     },
     {
       "name": "Kog'Maw",
@@ -2379,7 +2379,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 203
+      "id": 191
     },
     {
       "name": "Leblanc",
@@ -2392,7 +2392,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 204
+      "id": 192
     },
     {
       "name": "Lee Sin",
@@ -2405,7 +2405,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 205
+      "id": 193
     },
     {
       "name": "Leona",
@@ -2418,7 +2418,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 206
+      "id": 194
     },
     {
       "name": "Lillia",
@@ -2431,7 +2431,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 207
+      "id": 195
     },
     {
       "name": "Lissandra",
@@ -2444,7 +2444,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 208
+      "id": 196
     },
     {
       "name": "Lucian",
@@ -2457,7 +2457,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 209
+      "id": 197
     },
     {
       "name": "Lulu",
@@ -2470,7 +2470,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 210
+      "id": 198
     },
     {
       "name": "Lux",
@@ -2483,7 +2483,7 @@
       "classes": ["Carry", "Support"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 211
+      "id": 199
     },
     {
       "name": "Malphite",
@@ -2496,7 +2496,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 1,
-      "id": 212
+      "id": 200
     },
     {
       "name": "Malzahar",
@@ -2509,7 +2509,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 213
+      "id": 201
     },
     {
       "name": "Maokai",
@@ -2522,7 +2522,7 @@
       "classes": ["Tank", "Support"],
       "roles": ["Tank"],
       "complexity": 1,
-      "id": 214
+      "id": 202
     },
     {
       "name": "Master Yi",
@@ -2535,7 +2535,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 215
+      "id": 203
     },
     {
       "name": "Milio",
@@ -2548,7 +2548,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 216
+      "id": 204
     },
     {
       "name": "Miss Fortune",
@@ -2561,7 +2561,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 1,
-      "id": 217
+      "id": 205
     },
     {
       "name": "Mordekaiser",
@@ -2574,7 +2574,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 218
+      "id": 206
     },
     {
       "name": "Morgana",
@@ -2587,7 +2587,7 @@
       "classes": ["Carry", "Support"],
       "roles": ["Mage"],
       "complexity": 1,
-      "id": 219
+      "id": 207
     },
     {
       "name": "Naafiri",
@@ -2600,7 +2600,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 1,
-      "id": 220
+      "id": 208
     },
     {
       "name": "Nami",
@@ -2613,7 +2613,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 221
+      "id": 209
     },
     {
       "name": "Nasus",
@@ -2626,7 +2626,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 222
+      "id": 210
     },
     {
       "name": "Nautilus",
@@ -2639,7 +2639,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 223
+      "id": 211
     },
     {
       "name": "Neeko",
@@ -2652,7 +2652,7 @@
       "classes": ["Carry", "Support", "Tank"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 224
+      "id": 212
     },
     {
       "name": "Nidalee",
@@ -2665,7 +2665,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 225
+      "id": 213
     },
     {
       "name": "Nilah",
@@ -2678,7 +2678,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 3,
-      "id": 226
+      "id": 214
     },
     {
       "name": "Nocturne",
@@ -2691,7 +2691,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 227
+      "id": 215
     },
     {
       "name": "Nunu & Willump",
@@ -2704,7 +2704,7 @@
       "classes": ["Tank", "Carry"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 228
+      "id": 216
     },
     {
       "name": "Olaf",
@@ -2717,7 +2717,7 @@
       "classes": ["Tank", "Carry"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 229
+      "id": 217
     },
     {
       "name": "Orianna",
@@ -2730,7 +2730,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 230
+      "id": 218
     },
     {
       "name": "Ornn",
@@ -2743,7 +2743,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 231
+      "id": 219
     },
     {
       "name": "Pantheon",
@@ -2756,7 +2756,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 232
+      "id": 220
     },
     {
       "name": "Poppy",
@@ -2769,7 +2769,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 233
+      "id": 221
     },
     {
       "name": "Pyke",
@@ -2782,7 +2782,7 @@
       "classes": ["Carry", "Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 234
+      "id": 222
     },
     {
       "name": "Qiyana",
@@ -2795,7 +2795,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 235
+      "id": 223
     },
     {
       "name": "Quinn",
@@ -2808,7 +2808,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 236
+      "id": 224
     },
     {
       "name": "Rakan",
@@ -2821,7 +2821,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 237
+      "id": 225
     },
     {
       "name": "Rammus",
@@ -2834,7 +2834,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 238
+      "id": 226
     },
     {
       "name": "Rek'Sai",
@@ -2847,7 +2847,7 @@
       "classes": ["Tank", "Carry"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 239
+      "id": 227
     },
     {
       "name": "Rell",
@@ -2860,7 +2860,7 @@
       "classes": ["Tank", "Support"],
       "roles": ["Tank"],
       "complexity": 1,
-      "id": 240
+      "id": 228
     },
     {
       "name": "Renata Glasc",
@@ -2873,7 +2873,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 3,
-      "id": 304
+      "id": 229
     },
     {
       "name": "Renekton",
@@ -2886,7 +2886,7 @@
       "classes": ["Tank", "Carry"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 241
+      "id": 230
     },
     {
       "name": "Rengar",
@@ -2899,7 +2899,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 242
+      "id": 231
     },
     {
       "name": "Riven",
@@ -2912,7 +2912,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 243
+      "id": 232
     },
     {
       "name": "Rumble",
@@ -2925,7 +2925,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 244
+      "id": 233
     },
     {
       "name": "Ryze",
@@ -2938,7 +2938,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 245
+      "id": 234
     },
     {
       "name": "Samira",
@@ -2951,7 +2951,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 246
+      "id": 235
     },
     {
       "name": "Sejuani",
@@ -2964,7 +2964,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 247
+      "id": 236
     },
     {
       "name": "Senna",
@@ -2977,7 +2977,7 @@
       "classes": ["Support", "Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 248
+      "id": 237
     },
     {
       "name": "Seraphine",
@@ -2990,7 +2990,7 @@
       "classes": ["Support"],
       "roles": ["Mage"],
       "complexity": 1,
-      "id": 249
+      "id": 238
     },
     {
       "name": "Sett",
@@ -3003,7 +3003,7 @@
       "classes": ["Tank", "Carry"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 250
+      "id": 239
     },
     {
       "name": "Shaco",
@@ -3016,7 +3016,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 251
+      "id": 240
     },
     {
       "name": "Shen",
@@ -3029,7 +3029,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 252
+      "id": 241
     },
     {
       "name": "Shyvana",
@@ -3042,7 +3042,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 253
+      "id": 242
     },
     {
       "name": "Singed",
@@ -3055,7 +3055,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 254
+      "id": 243
     },
     {
       "name": "Sion",
@@ -3068,7 +3068,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 2,
-      "id": 255
+      "id": 244
     },
     {
       "name": "Sivir",
@@ -3081,7 +3081,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 256
+      "id": 245
     },
     {
       "name": "Skarner",
@@ -3094,7 +3094,7 @@
       "classes": ["Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 257
+      "id": 246
     },
     {
       "name": "Sona",
@@ -3107,7 +3107,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 258
+      "id": 247
     },
     {
       "name": "Soraka",
@@ -3120,7 +3120,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 1,
-      "id": 259
+      "id": 248
     },
     {
       "name": "Swain",
@@ -3133,7 +3133,7 @@
       "classes": ["Carry", "Tank", "Support"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 260
+      "id": 249
     },
     {
       "name": "Sylas",
@@ -3146,7 +3146,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 261
+      "id": 250
     },
     {
       "name": "Syndra",
@@ -3159,7 +3159,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 262
+      "id": 251
     },
     {
       "name": "Tahm Kench",
@@ -3172,7 +3172,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 263
+      "id": 252
     },
     {
       "name": "Taliyah",
@@ -3185,7 +3185,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 264
+      "id": 253
     },
     {
       "name": "Talon",
@@ -3198,7 +3198,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 265
+      "id": 254
     },
     {
       "name": "Taric",
@@ -3211,7 +3211,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Support"],
       "complexity": 1,
-      "id": 266
+      "id": 255
     },
     {
       "name": "Teemo",
@@ -3224,7 +3224,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 267
+      "id": 256
     },
     {
       "name": "Thresh",
@@ -3237,7 +3237,7 @@
       "classes": ["Support", "Tank"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 268
+      "id": 257
     },
     {
       "name": "Tristana",
@@ -3250,7 +3250,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 269
+      "id": 258
     },
     {
       "name": "Trundle",
@@ -3263,7 +3263,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 270
+      "id": 259
     },
     {
       "name": "Tryndamere",
@@ -3276,7 +3276,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 271
+      "id": 260
     },
     {
       "name": "Twisted Fate",
@@ -3289,7 +3289,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 272
+      "id": 261
     },
     {
       "name": "Twitch",
@@ -3302,7 +3302,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 273
+      "id": 262
     },
     {
       "name": "Udyr",
@@ -3315,7 +3315,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 274
+      "id": 263
     },
     {
       "name": "Urgot",
@@ -3328,7 +3328,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 275
+      "id": 264
     },
     {
       "name": "Varus",
@@ -3341,7 +3341,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 1,
-      "id": 276
+      "id": 265
     },
     {
       "name": "Vayne",
@@ -3354,7 +3354,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 3,
-      "id": 277
+      "id": 266
     },
     {
       "name": "Veigar",
@@ -3367,7 +3367,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 278
+      "id": 267
     },
     {
       "name": "Vel'Koz",
@@ -3380,7 +3380,7 @@
       "classes": ["Carry", "Support"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 279
+      "id": 268
     },
     {
       "name": "Vex",
@@ -3393,7 +3393,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 1,
-      "id": 280
+      "id": 269
     },
     {
       "name": "Vi",
@@ -3406,7 +3406,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 281
+      "id": 270
     },
     {
       "name": "Viego",
@@ -3419,7 +3419,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 282
+      "id": 271
     },
     {
       "name": "Viktor",
@@ -3432,7 +3432,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 283
+      "id": 272
     },
     {
       "name": "Vladimir",
@@ -3445,7 +3445,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 284
+      "id": 273
     },
     {
       "name": "Volibear",
@@ -3458,7 +3458,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 285
+      "id": 274
     },
     {
       "name": "Warwick",
@@ -3471,7 +3471,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 286
+      "id": 275
     },
     {
       "name": "Wukong",
@@ -3484,7 +3484,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 287
+      "id": 276
     },
     {
       "name": "Xayah",
@@ -3497,7 +3497,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 288
+      "id": 277
     },
     {
       "name": "Xerath",
@@ -3510,7 +3510,7 @@
       "classes": ["Carry", "Support"],
       "roles": ["Mage"],
       "complexity": 3,
-      "id": 289
+      "id": 278
     },
     {
       "name": "Xin Zhao",
@@ -3523,7 +3523,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 1,
-      "id": 290
+      "id": 279
     },
     {
       "name": "Yasuo",
@@ -3536,7 +3536,7 @@
       "classes": ["Carry"],
       "roles": ["Fighter"],
       "complexity": 3,
-      "id": 291
+      "id": 280
     },
     {
       "name": "Yone",
@@ -3549,7 +3549,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 3,
-      "id": 292
+      "id": 281
     },
     {
       "name": "Yorick",
@@ -3562,7 +3562,7 @@
       "classes": ["Carry", "Tank"],
       "roles": ["Fighter"],
       "complexity": 2,
-      "id": 293
+      "id": 282
     },
     {
       "name": "Yuumi",
@@ -3575,7 +3575,7 @@
       "classes": ["Support"],
       "roles": ["Support"],
       "complexity": 1,
-      "id": 294
+      "id": 283
     },
     {
       "name": "Zac",
@@ -3588,7 +3588,7 @@
       "classes": ["Tank"],
       "roles": ["Tank"],
       "complexity": 3,
-      "id": 295
+      "id": 284
     },
     {
       "name": "Zed",
@@ -3601,7 +3601,7 @@
       "classes": ["Carry"],
       "roles": ["Assassin"],
       "complexity": 2,
-      "id": 296
+      "id": 285
     },
     {
       "name": "Zeri",
@@ -3614,7 +3614,7 @@
       "classes": ["Carry"],
       "roles": ["Marksman"],
       "complexity": 2,
-      "id": 297
+      "id": 286
     },
     {
       "name": "Ziggs",
@@ -3627,7 +3627,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 298
+      "id": 287
     },
     {
       "name": "Zilean",
@@ -3640,7 +3640,7 @@
       "classes": ["Support", "Carry"],
       "roles": ["Support"],
       "complexity": 2,
-      "id": 299
+      "id": 288
     },
     {
       "name": "Zoe",
@@ -3653,7 +3653,7 @@
       "classes": ["Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 300
+      "id": 289
     },
     {
       "name": "Zyra",
@@ -3666,7 +3666,7 @@
       "classes": ["Support", "Carry"],
       "roles": ["Mage"],
       "complexity": 2,
-      "id": 301
+      "id": 290
     }
   ]
 }
