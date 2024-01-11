@@ -74,6 +74,7 @@
       "description": "Dwelling deep within the forest and above the Glacier, few have ever caught a glimpse of the solitary and impossibly beautiful Drow Ranger. Her presence was known only from the chill of Frost Arrows, driving deep into her enemies' hearts. Named and raised by the sympathetic Drow, Traxex draws on her heritage to send forth a powerful Gust, silencing and repulsing assailants who venture too close. Although normally aiming for precision, Traxex does not shy away from unorthodox methods, launching a Rapid Salvo of ice-tipped arrows at multiple targets at once. Honing her skill to peerless precision, the Drow Ranger's legendary Marksmanship only improves with each passing skirmish. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Disabler", "Pusher"],
       "complexity": 1
     },
@@ -86,6 +87,7 @@
       "description": "Woken from the depth of the earth, Raigor Stonehoof shapes the battlefield with seismic force. With his long ranged Fissure, the Earthshaker creates impassable terrain where none existed before. Never afraid to be outnumbered, the Earthshaker turns the tables with a grand Echo Slam, demolishing entire armies in the process. Whatever survives his disruptive Aftershocks still has a mighty swing to look forward to, an Enchanted Totem with the power that demolishes mountains. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Support", "Initiator", "Disabler", "Nuker"],
       "complexity": 2
     },
@@ -98,6 +100,7 @@
       "description": "What laid under the Juggernaut's mask, none could say. The last of his kind, Yurnero carries alone the martial traditions of his native isle, now sunken forever beneath the waves. Dancing with his Blade, the Juggernaut elevates swordplay to an art form, Swiftly Slashing foes in an unstoppable Blade Fury, striking the most vulnerable spots. With skills honed to such perfection, Yurnero can keep on Slashing and Dashing between opponents while giving them absolutely no chance to retaliate even in the slightest. Their only option to escape this onslaught is to book it as quickly as possible. After eviscerating his foes, Yurnero places his portable mobile Healing Ward that emits meditative energies to revitalize himself and nearby allies. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Pusher", "Escape"],
       "complexity": 1
     },
@@ -110,6 +113,7 @@
       "description": "Mirana patrols the Nightsilver Woods, ever vigilant against those who would dare to take from her goddess' preserve. Leaping into action on her white feline mount Sagan, the Princess of the Moon calls down a heavenly Starstorm to rain waves of meteors on surrounding enemies. Wielding a bow tipped with lunar ore, she takes skillful aim with a Sacred Arrows to find her mark from extreme distances. By the blessing of Selemene, Mirana shrouds the land in Moonlight Shadow, shielding her allies from the eyes of her enemies, she ensures that her team is always on the prowl. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Support"],
       "roles": ["Carry", "Support", "Escape", "Nuker", "Disabler"],
       "complexity": 2
     },
@@ -122,6 +126,7 @@
       "description": "After eons of travel in the darkness of space, the icy comet plunged to earth, and from there rose an elemental being of sentient liquid. Unbound by any permanent shape, the Morphling Alters Attributes to match his needs and Morphs into a replication of his foes, mimicking their capabilities, making them fight against a copy of themselves. Shifting between potent attacker, and resilient survivor, Morphling can be as elusive as he is deadly. Assuming the form of a Wave to flank an enemy, he surges forward before performing Adaptive Strikes of water that either sting or bludgeon the victims depending on his composition. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Durable", "Nuker", "Disabler"],
       "complexity": 3
     },
@@ -134,6 +139,7 @@
       "description": "Capturing Souls from every kill he makes, Shadow Fiend is always gathering his power. Armor fails within the Presence of the Dark Lord, leaving foes no choice but to scramble. Every assault, each carefully aimed Shadowraze kills an enemy, brings him closer to his acme of potency. The Shadow Fiend pauses to charge his demonic energies, then, with a flourish of his lightless wings, unleashes his gathered souls in all directions to obliterate enemies in a howling Requiem of Souls.",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker"],
       "complexity": 2
     },
@@ -146,6 +152,7 @@
       "description": "As Azwraith drove his pike through Vorn, the Dread Magus shattered into innumerable shards of light, saturating his killer with a strange new power. Once a humble fisherman, the Phantom Lancer Spears targets from afar, spawning a fragment of the Phantom Lancer himself as they Dash ahead while cutting foes apart in a breathtaking flurry of attacks. When cornered, he vanishes briefly from the battlefield, reappearing at a nearby spot while leaving behind Doppelgangers to mislead and elude pursuers. The sheer number of his army are often Juxtaposed with his foes, overwhelming them before their eyes can scarcely distinguish the Phantom Lancer from his army of clones. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Pusher", "Nuker"],
       "complexity": 2
     },
@@ -158,6 +165,7 @@
       "description": "Hatched on the frond of the Undertree, Puck's youthful mischievousness belied inscrutable motives. By teleporting to its Illusory Orb to Jaunt through short distances, it attacks and disrupt foes with bursts of Silencing Dust, Phase Shifting in and out of existence to avoid swords and spells alike. Equally adept at fighting and play, Puck Coils its foes to a single point, forcing them to break their restraints and be stunned, or stay and face Puck's advancing allies. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Support"],
       "roles": ["Initiator", "Disabler", "Escape", "Nuker"],
       "complexity": 2
     },
@@ -170,6 +178,7 @@
       "description": "Each carefully aimed throw of Pudge's signature Meat Hook strikes fear into his foes. Disoriented, his foe stumbles, gagging on a sudden stench of Rot. As it looks up at the fleshy hulk, hoping for an answer, only to watch as the Butcher Dismembers and carves them with his cleavers, adding a layer to his compost Heap. With every kill he gains additional health and damage, and soon becomes an unstoppable behemoth of rotting flesh. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Disabler", "Initiator", "Durable", "Nuker"],
       "complexity": 2
     },
@@ -182,6 +191,7 @@
       "description": "The whip that ushers the dead through the Narrow Maze brings just as much pain on the battlefield. Razor deploys a sweeping ring of Plasma Field to fry his enemies, he Links his foes to drain them of their power and use it against them. The Lightning Revenant is accompanied by an extraordinary Storm Surge. With a deadly lightning storm at his command, often times his foes found themselves entangled within the Eye of the Storm before even realizing it, as Razor watches and delights in his work as bolts of lightning reduce his foes to charred remains. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Durable", "Nuker", "Pusher"],
       "complexity": 1
     },
@@ -194,6 +204,7 @@
       "description": "Obscured in the harshest of gusts of Sand Storms was the Sand King. From beneath the shifting dunes he ambushes and Burrowstrikes enemies from beneath, inflicting a desiccating and Caustic Venom that causes their corpses to erupt inside out. But true destruction was heralded by a beating tail. Within moments, the ground pulsed with violent tremors, and from its moving Epicenter, Crixalis pursued scattering foes until the very last fell to their knees. Across bazaars and between towns, the learned repeat a simple truth. Where the Sand King walks, the earth trembles. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Initiator", "Disabler", "Support", "Nuker", "Escape"],
       "complexity": 2
     },
@@ -206,6 +217,7 @@
       "description": "Obscured in the harshest of gusts of Sand Storms was the Sand King. From beneath the shifting dunes he ambushes and Burrowstrikes enemies from beneath, inflicting a desiccating and Caustic Venom that causes their corpses to erupt inside out. But true destruction was heralded by a beating tail. Within moments, the ground pulsed with violent tremors, and from its moving Epicenter, Crixalis pursued scattering foes until the very last fell to their knees. Across bazaars and between towns, the learned repeat a simple truth. Where the Sand King walks, the earth trembles. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Nuker", "Initiator", "Disabler"],
       "complexity": 2
     },
@@ -218,6 +230,7 @@
       "description": "The Rogue Knight lives by two creeds: Honor, as ordained by his own personal code, and Solitude. Always eager to charge into a fight. Using his iron gauntlet, he launches a Storm Hammer, stunning grouped enemies as he transports himself into battle, then closes in to cut them down with Great Cleave. Letting out a truly frightening Warcry, he ignites and calls upon God's Strength, a few swings of his gargantuan sword are often more than enough to slay on his hapless foes. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
       "complexity": 1
     },
@@ -230,6 +243,7 @@
       "description": "A curious being of animated stone, Tiny roams the world in search of his origins. Seemingly mild-mannered, the Stone Giant is nonetheless a force to behold as he brings down a multitude of Avalanches. He Tosses friends and foes alike across the battlefield, landing them on top of enemies and into the fray. Growing to tremendous size and strength as the battle progresses, Tiny's power can quickly become terrifying. Some have even claimed to witness the Stone Giant Wielding a Massive Tree, bludgeoning and Volleying Trees at a fortress until only rubble remained. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Nuker", "Pusher", "Initiator", "Durable", "Disabler"],
       "complexity": 2
     },
@@ -242,6 +256,7 @@
       "description": "Robbed of her wings and rightful place in the Ghastly Eyrie, Shendelzare appealed to the goddess Scree'auk to grant her the dark energies that would complete her vengeance. With a Wave of Terror, the fallen princess heralds her arrival, unnerving foes close enough to hear her anguished cry. Like her airborne brethren, the Vengeful Spirit makes liberal use of Magic Missile, a simple Skywrath spell for stunning adversaries. Seeking martyrdom, Shendelzare instantly Displaces herself with a target of her choosing, gladly sacrificing herself as she swaps positions with a besieged ally, or a fleeing enemy. The worthy who fight alongside Shendelzare are emboldened by her Vengeance, a fanaticism that intensifies their blows and persists even beyond her death, as the Vengeful Spirit's presence is felt at all times. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Initiator", "Disabler", "Nuker", "Escape"],
       "complexity": 1
     },
@@ -254,6 +269,7 @@
       "description": "Born in the midst of a ruinous tempest, Lyralei has always been one with the Elemental Wind. Swift of foot, and true of aim, she Windruns across the battlefield, avoiding attacks as she draws a Powershot to pierce foes from a far. Armed with both quiver and rope, the Windranger binds enemies together with a handy Shackleshot. Honing her concentration, Lyralei launches a relentless sequence of arrows, Focus Firing on a single target until it resembles little more than an oversized pincushion. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Support"],
       "roles": ["Carry", "Support", "Disabler", "Escape", "Nuker"],
       "complexity": 2
     },
@@ -266,6 +282,7 @@
       "description": "Charged with godly might emanating from his Lightning Hands. As the Lord of Heaven Jumping around, Zeus calls down Lightning Bolts to smite foes and reveal the surroundings, sends Arc of Lightning through his nearest enemies, and calls forth a terrifying Nimbus upon his enemies that repeatedly strikes enemies with Lightning Bolts. None can hide from Zeus, pointing his arms skyward to bring divine punishment down on each and every foe. Wherever they may be, none shall stand against the Thundergod's Wrath. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Nuker", "Carry"],
       "complexity": 1
     },
@@ -278,6 +295,7 @@
       "description": "It is said that none survived the battle at the Trembling Isle, save perhaps, the Admiral of the Claddish fleet. Man or phantom, Kunkka's presence on the battlefield is duly felt by all. Armed with the legendary Tidebringer, the Admiral strikes with a single blow at all who stand before him. A veteran of innumerable naval engagements, Kunkka times his skills with Planned Precision, predicting Tidal Waves and catching opponents in a rising Torrent, disrupting the battlefield with a Storm of Geysers, or summoning the ephemeral Ghostly Shipwreck to dash them upon the rocks. Should his aim prove true, he and his allies will have no trouble cleaning up whatever is left. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Support"],
       "roles": [
         "Carry",
         "Support",
@@ -297,6 +315,7 @@
       "description": "What appears to be a frail old man on his steed is, in truth, a Fundamental, the Keeper of the Light. Ezalor's staff Illuminates the darkest corners, banishing evil from the realm. He replenishes his companions with Chakra Magic, while casting a Blinding Light over the land, causing attacks to miss. Heads turn to stare at a mysterious shimmering orb, unable to look away as the Keeper's allies encircle foes hypnotized by the flickering lights of the Will-O-Wisp. Effortlessly weakening his foes, Binding them to the primordial light. Revealing his full power, he enters Spirit Form, riding forth in all planes at once, Recalling his allies to further press the assault. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler"],
       "complexity": 2
     },
@@ -309,6 +328,7 @@
       "description": "Like her younger sister, Lina's elemental affinity was the source of many headaches. Sent south to live with a patient aunt, she learned to master her Fiery Soul in the blazing Desert of Misrule. Channeling the breath of Desert Wyrms, she unleashes her Dragon Slave to burn a path before her. Attuned to fire, Lina ignites the ground, incinerating foes in a Column of Flame. Even the hardiest of heroes fear the Slayer's signature spell — The Laguna Blade. Supercharging every bit of heat around her, and Cloaking Herself in Flames, Lina fires a condensed bolt of white-hot energy, instantly evaporating her opponent with minimal struggle or effort. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Carry", "Nuker", "Disabler"],
       "complexity": 1
     },
@@ -321,6 +341,7 @@
       "description": "Betrayed by his demon partner, Lion went to Hell and back for his vengeance, retrieving the demon's hand and grafting it onto his own body. Lion gives enemies little chance to retaliate. Stunning targets with a damaging row of Earth Spikes, or temporarily transforming them into a harmless critter using a simple Hex, allowing him to Mana Drain them without interruption. Satisfied, the Demon Witch raises his disfigured hand, and points the Finger of Death to exterminate foes with a torrent of Infernal energy. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker", "Initiator"],
       "complexity": 1
     },
@@ -333,6 +354,7 @@
       "description": "Shadow Shaman quickly clears the way for his team's forces to march on the enemy base. Blasting enemies with Ether Shocks, interrupting attackers with Hexes, transforming his foe into a chicken, while locking down another with magical Shackles — but not before conjuring up powerful Mass Serpent Wards. Spitting fire in every direction, the Shadow Shaman's charmed snakes make short work of his disabled enemies. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Pusher", "Disabler", "Nuker", "Initiator"],
       "complexity": 1
     },
@@ -345,6 +367,7 @@
       "description": "Born under the immense pressure of the deep, always ready to find and demolish his foes, Slardar quickly slithers and Sprints into battle with one muscular tail, chasing down legged foes with alarming swiftness. And with little time to react, they were bathed with his Corrosive Haze, exposing their position while shattering their defenses. Once discovered, the Slithereen Guard Smashes the Ground, dazing nearby enemies just long enough to pummel and Macerate them. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Durable", "Initiator", "Disabler", "Escape"],
       "complexity": 1
     },
@@ -357,6 +380,7 @@
       "description": "Tired of undersea politics, Leviathan rises from the waves to stalk the shallows for victims. Travelers who cross him are blasted with a Gush of foamy brine, Anchoring while also impairing their movement as the Tidehunter's tendrils lumber after them on land. Wielding a souvenir stolen from a hated rival, Leviathan pulverizes armor and flesh alike with a hefty Anchor Smash. Spears and arrows bend against his Kraken Shell, allowing no chance for interruption as the Tidehunter summons his abyssal god to Ravage enemies in a sea of flailing tentacles. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support", "Tank"],
       "roles": ["Initiator", "Durable", "Disabler", "Nuker", "Carry"],
       "complexity": 1
     },
@@ -369,6 +393,7 @@
       "description": "A bizarre figure shambles across the land, searching for any opportunity to apply the morbid arts of Prefectura Island. Filling a skull with noxious powder, the Witch Doctor throws this Paralyzing Cask to stun enemies in succession. To his allies, Zharvakko is a fountain of health, curing ailments with Voodoo Restoration. To his foes, he is the source of curses and Switcheroos. Notoriously known for Maledicting his adversaries and forcing them to relive the agony they will inevitably receive from his Death Ward, few can match Witch Doctor's versatility. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler"],
       "complexity": 1
     },
@@ -381,6 +406,7 @@
       "description": "Resurrected by a curious geomancer, Ethreain bewitched his savior with a Sinister Gaze, then promptly made the man his newest sacrifice. Finally freed from the depths of the Black Pool, the Lich returns to wreak icy destruction on the world. Cloaking his followers with a Frost Shield, Ethreain floats across the battlefield to Blast any who cross him. A frozen orb descends on his foes, traveling between foes and Ice Spires until the Chain Frost brings all opposition to their demise. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker"],
       "complexity": 1
     },
@@ -393,6 +419,7 @@
       "description": "Leaving his past life behind, Riki escaped the royal grounds using his own Cloak-and-Dagger methods. Stealthy and fond of killing from behind, Riki throws down a dense Smoke Screen, blinding and choking foes as he takes them by surprise with Blink Strike. Intruders who enter his turf is greeted with twin daggers, flashes of steel that slash simultaneously at every turned back while the master himself remains unseen. How this feat is accomplished remains a mystery, for the Stealth Assassin is not one to divulge his Tricks of the Trade. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Disabler"],
       "complexity": 1
     },
@@ -405,6 +432,7 @@
       "description": "A mystery worthy of his name, Enigma could only be described as a being of the void, a beast between planes. He draws aspects of himself from other dimensions, performing Demonic Summonings, commanding an ever-present contingent of Eidolons. The ground darkens under a Midnight Pulse, and foes are stunned by the unseen enchantments and Malefices as they try to flee its entropic effects. One legend has it that Enigma is actually the first collapsed star. This theory grows more plausible as Enigma begins to channel a cosmic singularity, pulling and entrapping all except himself into the super-dense center of his Black Hole. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Disabler", "Initiator", "Pusher"],
       "complexity": 2
     },
@@ -417,6 +445,7 @@
       "description": "Compared to magic, the study of natural law was much more consistent, but no less dangerous. From their subterranean laboratory, Boush and his colleagues opened a portal to a distant world, a Conveyance through which untold horrors began to pass into this realm. Laser cutting his way to freedom, Boush surfaced as the only Tinker to survive the Violet Plateau incident. Equipped with contraptions befitting a maniacal researcher, he launches Heat-Seeking Missiles from his shoulders, firing Warping Flares to dislocate his enemies. Unhindered by the delays of magic, the Tinker Rearms his deadly offensive gadgets and Defensive Matrices on the fly, wasting no time in demolishing anything that stands in his way. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Pusher"],
       "complexity": 2
     },
@@ -429,6 +458,7 @@
       "description": "With a single bullet, Kardel Sharpeye pierced the steep-stalker's central eye from the valley floor, an ominous act that resulted in his ritual exile. He would win acclaim on a field of battle, or never return. Like his mountain kin, the Sniper is one with his firearm. He Takes Aim from great distances, and scores Headshots that stop his targets dead. Armed with a modular rifle, Kardel launches incendiary rounds to rain burning Shrapnel or throwing a Grenade knocking back his enemies over entrenched positions. No enemy is safe within the range of the Sniper's scope. As he pauses to line up his cross-hairs, compensating for every variable before he Assassinates his mark in one fatal shot. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker"],
       "complexity": 1
     },
@@ -441,6 +471,7 @@
       "description": "Sentenced to a slow death by plague, the corrupt cardinal Rotund'jere instead found himself infected, but miraculously immune. Proclaiming himself the Necrophos, he set out to spread disease far and wide. Cloaked in a Ghost Shroud, the cardinal's ethereal presence chills his surroundings, while those who wander too close, seemingly Seeking Death, are struck by waves of Deadly Pulses. The most afflicted are often the first to die. Once his very presence has slowly Stopped their Hearts, he culls the infirm with a single swing of the Reaper's Scythe, permanently boosting his own regeneration. Wherever Necrophos goes, enemies wither as allies thrive. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Support"],
       "roles": ["Carry", "Nuker", "Durable", "Disabler"],
       "complexity": 1
     },
@@ -453,6 +484,7 @@
       "description": "In the endless pursuit of rare texts, Demnok Lannik found it necessary to learn the magics that would help him reach the most inaccessible tomes. In short time, his obsessive study made him the most powerful Warlock in the academy. As he whispers a versatile Shadow Word to heal fellow adventurers, or damage hostile creatures. Fatally Bindings his foes together forcing them to share their agony. Demnok Lannik brings a Chaotic Offering and Eldritch Imps to every fight. Mired in a dimensional Upheaval, not even an army can hold long against his dark spells, especially his Permanently Immolated Golems. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Initiator", "Disabler"],
       "complexity": 1
     },
@@ -465,6 +497,7 @@
       "description": "Raised in the royal menagerie of Slom, Karroch learned to converse with beasts from a young age. With this unique talent, the Beastmaster is able to summon to his side a trusty poison-spitting Boar and a scouting Hawk. In addition to his companions, Karroch has mastered the art of throwing Wild Axes, cutting down trees and foes before returning to his hands. The Beastmaster awakens the Inner Beast of nearby allies, increasing their attack speed. Should an enemy attempt to flee, Karroch lets loose a piercing Primal Roar, incapacitating the target and clearing the path to its demise. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Initiator", "Disabler", "Durable", "Nuker"],
       "complexity": 2
     },
@@ -477,6 +510,7 @@
       "description": "Queen of Pain strikes without warning, she Blinks past defenses, wracking her victims with her deafening Screams. Should an enemy survive her onslaught, she slows their escape with a hurl of Shadow Strikes, drawing out their suffering over time. Running is futile. There is only one release from such torture. The Queen flexes her membranous wings, then delivers an ear-piercing Sonic Wave that will put an end to all misery. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Escape"],
       "complexity": 2
     },
@@ -489,6 +523,7 @@
       "description": "Venomancer brings slow death to its enemies. It infects other living beings by its very Noxious Touch, and spewed Venomous Gales to slow and poison escaping prey. Part reptile and part orchid, it sprouts an endless army of toxin-spitting sentinels, the Plague Wards, to defend its perimeters with Acid Spit. Should foes draw near, they are sprayed with a massive, noxious Poison Nova, ensuring that even those who get away eventually succumb to the Venomancer's many Latent Toxins. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Initiator", "Pusher", "Disabler"],
       "complexity": 1
     },
@@ -501,6 +536,7 @@
       "description": "Darkterror is a being for whom the laws of spacetime do not apply. He fast-forwards Back and Forth through space, Time Walking past obstacles, manipulating it to dodge any damage taken and Pausing his enemies in place momentarily. Enemies near him feel his gravitational presence and experience Time Dilation, slowing not only their movement, but also the rate at which spells can be cast. He rips open a rift, bringing all but himself to a complete standstill. Frozen in Time, enemies can only stand oblivious as the Faceless Void dismantles them from within. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Initiator", "Disabler", "Escape", "Durable"],
       "complexity": 2
     },
@@ -513,6 +549,7 @@
       "description": "On the millennial solstice known as Wraith-Night, Ostarion stood frozen amid the carnage, absorbing innumerable souls as his champions sacrificed their lives for the King. Now brimming with Wraith Essence, Ostarion immobilizes his adversaries with Wraithfire Blast, stunning and searing them over time. His great-sword smashes foes in one Mortal Strike, sapping their essence to feed his Vampiric Spirit. Only fools trust the erratic reports of Ostarion's death. For when slain, the wraith energies that bind his body begin to reconstitute his parts, joining limb to torso until the Wraith King's Reincarnation comes full circle as his strides fearlessly towards his enemies, again. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Support", "Durable", "Disabler", "Initiator"],
       "complexity": 1
     },
@@ -525,6 +562,7 @@
       "description": "Denied her own death time and again, Krobelus returns from the grave with skills acquired from the beyond. Gathering a Crypt Swarm, she sends forth a flock of winged beast to harass the living. A pall of Silence falls over the land, stifling any objection as she Siphons multiple enemies dry simultaneously. Mortals beware. As she performs an Exorcism, unleashing the banshee remnants of her previous lives, demolishing enemies and their defenses alive, turning the battlefield into her own haunted ground. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Pusher", "Nuker", "Disabler"],
       "complexity": 1
     },
@@ -537,6 +575,7 @@
       "description": "Of all the assassins raised by the Sisters of the Veil, only one is known by name: Mortred. Through meditation and prophecy, the order identifies the next target to die at her hands. Attacks miss against the Phantom Assassin as she Blurs into her surroundings, traversing undetected across the land to catch her victims unaware. She opens the encounter with a Stifling Dagger, thrown from the shadows, then leaps upon the crippled target to deliver a flurry of Phantom Strikes, followed by a Fan of Knives hurled into all directions. Without warning, any one of her attacks could be the Coup de Grâce, leaving behind only the blood-splattered ground as testament to her efficiency. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape"],
       "complexity": 1
     },
@@ -549,6 +588,7 @@
       "description": "A crafty trickster, Pugna turns the enemy's power against itself as he Blasts their defenses. While his Nether Ward strikes nearby foes that dare to cast a spell. He Decrepifies his target, temporary banishing them to another realm, and Drains Life from his enemies while replenishing himself with their vitality, ensuring that he will be ready for the next assault. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Nuker", "Pusher"],
       "complexity": 2
     },
@@ -561,6 +601,7 @@
       "description": "Bending the laws of nature itself, Lanaya forms a Refraction field that absorbs incoming blows, yet amplifies outgoing attacks. She Melds into the background, lying in ambush to unleash a burst of psionic energy on unsuspecting targets. Violet light emanates from her fingertips, her Psi Blades out-ranges any melee weapon, shreds and pierce through lines of foes at once. Persistent in her goals, Lanaya marks the ground with magic circles of eldritch design. Those who walk unknowingly over a Psionic Trap can only limp away from the explosion — for their presence has been revealed, and the assassin who Projected herself into place is not far behind.",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape"],
       "complexity": 2
     },
@@ -573,6 +614,7 @@
       "description": "It was foolhardy to try and tame a Netherdrake, a lesson the old wizard learned in death. Freed from his captor, Viper spread his wings and went forth to explore the surface world. With Poison Attacks imbued with virulent liquid, causing joints to harden, crippling foes whether they choose to flee or fight. Nethertoxin spreads throughout their bodies, turning wounds into fatalities, and fatigue into death. The Netherdrake's tough, Corrosive Skin protects against spell-craft, and burns assailants with acid. But it is the dreaded Viper Strike that signals the beginning of the end. The afflicted victim staggers to a crawl, barely able to take its next step. If the Netherdrake doesn't finish his targets off, the venom in their veins will. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Durable", "Initiator", "Disabler"],
       "complexity": 1
     },
@@ -585,6 +627,7 @@
       "description": "Renouncing her savage past, Luna swore her service to Selemene, and embraced the title of Moon Rider. The goddess bestows a Lunar Blessing on her new champion, boosting her strength and heightening her nocturnal senses. Saddled on top of Nova, her beastly mount, Luna bounds across the Nightsilver Woods to smite trespassers with a searing Lucent Beam. Superior numbers are no advantage against the Moon Rider. Through divine will, the midday sun gives way to night, and every foe is struck by rays of lunar energy as Luna tears through their ranks with flying Moon Glaives. By Selemene's wrath or through her own hand, the Moon Rider levels the battlefield under the brief darkness of the Eclipse. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Pusher"],
       "complexity": 1
     },
@@ -597,6 +640,7 @@
       "description": "As Sir Davion slew Slyrak in arranged combat, the Eldwurm's blood mingled with his own, sealing their essences together. He was no longer a dragon-slayer, but a Dragon Knight. The infusion of Dragon Blood caused his wounds to heal with inhuman speed, and granted him great new powers. While nowhere as grand as Slyrak, he found himself with the ability to Breathe Fire and launch Fireballs, immolating packs of foes at once. But when Davion took on his Elder Dragon Form, he became the formidable Eldwurm itself, and upon his awestruck enemies he rained projectiles of acid, fire, and ice. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Pusher", "Durable", "Disabler", "Initiator", "Nuker"],
       "complexity": 1
     },
@@ -609,6 +653,7 @@
       "description": "A journey to the Nothl Realm changes all its visitors, not least of which Dazzle, a young acolyte of the Dezun Order. Consecrated as a Shadow Priest, Dazzle sends outs Shadow Waves to mend and maim. Foes are crippled by his paralytic enchantment — the Poison Touch, while allies are blessed with Shallow Graves, cheating death no matter how severe their injuries. As for himself, with each spell cast, each invocation of his strange Juju magic advances the efficiency of his spell-casting. Enemies within earshot of his incantations feel their bodies weaken, for those who cross Dazzle are invariably afflicted with an eternity of Bad Juju. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler"],
       "complexity": 1
     },
@@ -621,6 +666,7 @@
       "description": "Powered by revenge and ingenuity, Rattletrap armored himself into an instrument of war. Firing Rockets from his shoulder-mounted launcher, striking and revealing distant territories. With a built-in Jetpack for scouting convenience, a sudden Hookshot flies, latching instantly and pulling the mechanized Keen to his unsuspecting foe. Before the stunned target could react, Rattletrap erects a grid of Power Cogs, isolating and trapping his foe within while repelling help from without. He triggers the suit's Battery Assault, and watches the target panic as short bursts of shrapnel whittle down its remaining health... and if all that was not enough, Overclocking the armored suit and repeating the assault at higher speeds may do the trick. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Support", "Tank"],
       "roles": ["Initiator", "Disabler", "Durable", "Nuker"],
       "complexity": 2
     },
@@ -633,6 +679,7 @@
       "description": "Once a worldly philosopher, the hideous truth at the heart of existence emanated Nihilism and twisted Leshrac into the vile being he is today. The Split Earth beneath his hooves opens to consume the unsuspecting, while Lightning Storms strike down entire fields of foes. He pronounces a Diabolic Edict, saturating the air with bouts of magical explosions. Warping the structure of spacetime, Leshrac emits a continuous Pulse Nova, disintegrating and scouring nearby foes without ever lifting a finger. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support", "Carry"],
       "roles": ["Carry", "Support", "Nuker", "Pusher", "Disabler"],
       "complexity": 1
     },
@@ -645,6 +692,7 @@
       "description": "Planted as a seed by the goddess Verodicia, and grown from the remnants of her own body, the Nature's Prophet rose on the vernal equinox to defend the verdant world. Gifted with foresight, Nature's Prophet seems to be everywhere at a moment's notice. Trapping foes with a ring of trees Sprouted from the forest floor and Teleporting at will to any location. The trees around him serve as his objects of power; using them, he instantly summons a Sentient Army of violent trees to fight for him, he attacks where enemies least expect. Channeling the goddess' fury, the Prophet strikes at every intruder in the land, bringing both the Curse of the Oldgrowth and the Wrath of Nature down on all who would do harm to Verodicia's creation. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support", "Carry"],
       "roles": ["Carry", "Pusher", "Escape", "Nuker"],
       "complexity": 2
     },
@@ -657,6 +705,7 @@
       "description": "What was once a man is now little more than a husk, its mind long since departed from lifetimes of imprisonment. Or has it? Now on the loose, N'aix appears to be driven by a new purpose, although what precisely that is, none would know. The Lifestealer Feasts on raw flesh, nourishing himself with every attack while inflicting grievous Open Wounds that make escape near impossible. By sheer ferocity, or perhaps a Ghoulish Frenzy, N'aix flies into a Rage, intensifying his assault while defying all wizardry. For a particularly nasty surprise, the Lifestealer Infests an unhappy victim, laying dormant inside its body in wait for the opportunity to Consume its host inside-out in a gory explosion. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Durable", "Escape", "Disabler"],
       "complexity": 2
     },
@@ -669,6 +718,7 @@
       "description": "A cunning tactician, the Dark Seer excels at manipulating positions of his enemies. Vacuuming and Punching foes into the attacks of his allies, drawing them into the prismatic thorns of his Ion Shell. Armed only with his intellect, he Surges across the land to survey every point of conflict. At strategic locations Ish'Kafel places his Wall of Replica, sowing confusion amongst enemy ranks as an army of duplicates emerge to do battle against their own likenesses. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Initiator", "Escape", "Disabler"],
       "complexity": 1
     },
@@ -681,6 +731,7 @@
       "description": "As Clinkz loosed his final arrow, the demon Maraxiform ignited the land with Hellfire, burning him to the bone. Yet, the heroic bowman did not die. He had slain the demon, and unwittingly earned king-mage Sutherex's reward — Eternal life. Immortalized at the precipice of death, Clinkz now makes advantageous use of his skeletal body. Camouflaged, he walks into hostile lands, forming Death Pacts with wildlife to learn their ways and empower his shots and vitality. The demon's inferno burns within his ribs, with which he now rains Fiery Death upon his foes, Searing His Arrows to devastating effect. When backup is needed, Clinkz calls upon a Burning Army of skeletal compatriots, incinerating his foe in flames of their Hellfire barrage. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Pusher"],
       "complexity": 2
     },
@@ -693,6 +744,7 @@
       "description": "A guardian at the front lines of battle, Omniknight is always eager to join his team in battle. Whether healing an ally with Purifying lights that also harm nearby foes, protecting his allies with the All Seeing One's grace, or battering an enemy with his Mighty Hammer. In decisive moments of the battle, he calls forth the Guardian Angel, granting himself and nearby allies total physical immunity, Repelling and nullifying the enemies' attacks for a short time. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Support", "Durable", "Nuker"],
       "complexity": 1
     },
@@ -705,6 +757,7 @@
       "description": "Carefree and pure of heart, Aiushtha wanders the forests, listening to the stories of its inhabitants. Nature's Attendants flutter around her, lively sprites that heal critters big and small. When necessary, she Enchants woodland creatures to do her bidding. A perfect image of Untouchable innocence, hunters hesitate to make even the slightest move against Aiushtha. This reluctance is seldom reciprocated. Threats against her Little Friends embolden the Enchantress to break her gentle demeanor, giving her the Impetus to bring those who disturb the peace to a swift and final justice. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support", "Carry"],
       "roles": ["Support", "Pusher", "Durable", "Disabler"],
       "complexity": 2
     },
@@ -717,6 +770,7 @@
       "description": "Rescued against his will from the Nothl Realm, the revived Huskar found supernatural strength in his own living essence. The Sacred Warrior marks his Spears with blood, setting both weapon and life-force alight before throwing them at his foes. By instantly sacrificing a portion of his health with Life Break, he lunges towards a single target, causing it to lose an even greater portion of its health. With every blow sustained igniting his Inner Fire, the Berserker's Blood redoubled the Sacred Warrior's speed and made him ever more resilient, facing down his opponent in a bloody fervor until he emerged triumphant. ",
       "primary_attr": "str",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Durable", "Initiator"],
       "complexity": 1
     },
@@ -729,6 +783,7 @@
       "description": "The beast of bedtime tales, Balanar is the primal terror that every child knows to fear. Once the sun goes down, Night Stalker's hunt begins. Charging through the shadowy forests, he snares prey in a debilitating Void, slowing and forcing his quarry to flee, arms withering and spells fizzling as their hearts are stricken with Crippling Fear. Should sunrise threaten to end his terror, the Hunter in the Night transforms through a Dark Ascension, spreading his wings under the blackened veil of night, and goes on the prowl for ever more victims. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Initiator", "Durable", "Disabler", "Nuker"],
       "complexity": 1
     },
@@ -741,6 +796,7 @@
       "description": "Inhabiting the lava tubes below the caldera of Mount Pyrotheos, Black Arachnia grew tired of recent adventurers stepping on her many offspring. And so, the Broodmother set out to rid the world of every potential intruder, one hero at a time. Warm bodies make ideal nurseries, a fact not lost on Black Arachnia as she injects her eggs into dying foes to Spawn Spiderlings. Across patches of land she Spin Webs of Silken Fiber, sheltering herself within to recuperate injuries or laying down Snares to catch her prey. Driven by an Insatiable Hunger, the Broodmother goes into a feeding frenzy, sucking the vital fluids from wandering heroes with each bite, replenishing herself for the next spawn cycle. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Pusher", "Escape", "Nuker"],
       "complexity": 2
     },
@@ -753,6 +809,7 @@
       "description": "Fear is the mother of rumor, and tales of Gondar's origins are nothing but hearsay. For the right price, the Bounty Hunter will Track down any target to deliver their heads and collect their bounties. He Guides while Walking through Shadows into the best-guarded keeps, crippling his target with a surprise attack, and steal some of their riches with a Calculated Strike. Even targets at a greater distance are not safe from the Bounty Hunter, as his trusty Shuriken seemingly has a mind on its own, seeking out and striking all targets the Bounty Hunter keeps track of. Because in the end, it's all about the gold. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Escape", "Nuker"],
       "complexity": 1
     },
@@ -765,6 +822,7 @@
       "description": "All Weavers worked to maintain the fabric of creation, save one Skitskurr, who took it upon himself to create that which had not been woven. Cast out for his ambitions, Skitskurr was now free from his obligations, free to weave a new reality of his own. Opening a gap in spacetime, the Weaver invites The Swarm — young Weavers to latch onto enemies, and nibble away at their armor. Nearly impossible to pin down, he slips into micro-wormholes, passing through enemies and reappearing with Shukuchi. The fabric of time frays around Skitskurr, occasionally replaying, causing his Geminate Attacks to be witnessed — and felt — more than once. The Weaver takes brinkmanship to an extreme. Fighting to the verge of death, Skitskurr turns back the clock with Time Lapse, reversing his injuries and undoing his foes' efforts, much to their dismay. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape"],
       "complexity": 2
     },
@@ -777,6 +835,7 @@
       "description": "Most Pyrexae Dragons are hatched with one head, attuned to either ice or fire. Then there was Jakiro, an accident of nature. Possessing the might of both elements, the twin-headed dragon's Dual Breath freezes and burns simultaneously. Gobs of Liquid Frost or Liquid Fire adhere to armor and walls, melting down steel and stone alike. Retreating foes are blocked off with Ice Path, giving Jakiro ample time to roast them on his Macropyre. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Pusher", "Disabler"],
       "complexity": 1
     },
@@ -789,6 +848,7 @@
       "description": "While most would find being kidnapped by a morde-bat to be a terrifying ordeal, one particular young man found the incident exhilarating. Seeking to relive the thrill of flight, he entered the Yama Raskav Jungle, and came out soaring high above the canopy as the Batrider. Atop his leathery mount, he drenches targets below in Sticky Napalm, increasing their flammability before setting the land ablaze by flying up in the sky glowing like a Firefly. To ignite enemies from afar, he hurls an explosive cocktail with an explosion strong enough to knock foes away. Want a ride? That can be arranged. As he spots his targets from above, and throws out his Flaming Lasso to string them along for a fiery experience they will not soon forget. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Support"],
       "roles": ["Initiator", "Disabler", "Escape"],
       "complexity": 2
     },
@@ -801,6 +861,7 @@
       "description": "Converted at sword-point after a disastrous battle, Chen quickly became one of the Fold's most zealous knights. Raised among the clans of the Hazhadal Barrens, Chen adapts his skills of animal enthrallment to perform Holy Persuasions and Martyrdoms, compelling packs of creatures of the forest to fight and sacrifice for his cause. His allies are graced with Divine Favor, while foes are forced to atone through the magnified pains of Penitence. Chen's devotion does not go unrewarded. The Hand of God aids his companions in their quests, intervening at critical moments to heal their injuries and save them from fatal blows. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Pusher"],
       "complexity": 3
     },
@@ -813,6 +874,7 @@
       "description": "An eternal being of violent energies, Mercurial, the Spectre is irresistibly drawn to conflict. Throwing out a Spectral Dagger, creating a shadowy trail to her foes in which she may travel unobstructed. Harm done to Mercurial is partially deflected and Dispersed onto nearby foes that prolongs her endurance. Even in the most Desolate wilderness, travelers are Haunted by visions of Spectre, seeming to prey on their solitude. But these are no mere illusions. It is said that for one in every five haunted, the apparition becomes Reality, and alongside these unfortunate victims the Spectre Shadow Steps to, bringing with her the destruction and wrath that she eternally craves. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Durable", "Escape"],
       "complexity": 2
     },
@@ -825,6 +887,7 @@
       "description": "Projected from the cold, infinite void, the Ancient Apparition known as Kaldr is but a faint image of his true self. Nevertheless, his Chilling Touch is enough to reach the furthest of targets. Caught in an Ice Vortex, heroes quickly get Cold Feet and before they know it, find themselves frozen in place. A frigid sphere flies across the sky, expanding at its destination. Within seconds, an Ice Blast strikes the marked area. Flash frozen, enemies have no choice but to retreat before their brittle bodies shatter to pieces... ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker"],
       "complexity": 2
     },
@@ -837,6 +900,7 @@
       "description": "Wings branded and visage twisted, the Fallen One bears little resemblance to his former self. Banished from the realm of light, Lucifer now walks the earth, bringing misery to all who stand against him. The towering demon Devours creeps in a single bite, digesting them whole and assimilating their abilities. The fires of Hell smolder at Lucifer's feet, leaving in his wake fields of Scorched Earth. When the bell of Vashundol tolls, an enemy's downfall is sure to follow. Raising his Infernal Blade, Lucifer places upon his adversary an enduring curse, burning away at its health and rendering it utterly powerless as it staggers towards its inevitable Doom. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
       "complexity": 2
     },
@@ -849,6 +913,7 @@
       "description": "The fiercest member of his ursine tribe, Ulfsaar makes it his purpose to seek out the evil fomenting beyond his homeland. The Ursa Warrior leaps and Shakes the Ground, slowing foes as he Overpowers them with relentless attacks. His claws dig in to widen the wound, inflicting greater damage with each successive Fury Swipe. An Enraged ursine is a sight to behold. Ignoring all pain, the Ursa Warrior goes into a righteous frenzy, and bears down on his opponents to maul them beyond recognition. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Durable", "Disabler"],
       "complexity": 1
     },
@@ -861,6 +926,7 @@
       "description": "From the elemental realm, Barathrum crosses into this world as an amalgamate of bestial forms, selected for the purpose of serving his hidden master. Gifted with unusual haste, the Spirit Breaker's strength increases with speed as he Bulldoze all in his path. Given sight of a distant foe, he Charges Through Darkness, rushing past high valleys and dense woods until he crashes headlong into battle, stunning and Knocking Back enemies with his lantern. Before foes can muster a response, the Spirit Breaker shifts into his native realm and distorts the fabric of Planar Space, before reappearing up close to deliver the Nether Strike that will seal their fates. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Initiator", "Disabler", "Durable", "Escape"],
       "complexity": 1
     },
@@ -873,6 +939,7 @@
       "description": "The world's first non-magical flying device took over a decade to create, and less than a few seconds to shoot down. But its pilot was not deterred. Aurel returned to the skies in a newer, better Gyrocopter. Armed with Flak Cannons, the Gyrocopter can attack while traveling and mow down entire fields of foes even at distance greater than the reach of the main guns. Against targets that manage to escape the reach of the cannons, the contraption is equipped with self-regulating Homing Missiles that can tail their targets to the end of the world if not shot down. With a flick of a single button, a seemingly endless Barrage of Rockets can be released on anyone stepping too close to the flying machine. As the Keen he is, Aurel went overboard and mounted two huge rocket launchers on the back of the already loaded construction, allowing him to Call Down an air strike to devastate entire sectors. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Disabler"],
       "complexity": 1
     },
@@ -885,6 +952,7 @@
       "description": "Having broken out of prison with his ogre accomplice, Razzil Darkbrew embarks on the search for new materials to use in his transmutations. Learned in alchemy, he infuses his partner's weapons with Corrosive Substances and created toxic Sludge Acids to accelerate his Greevil's Greed — extracting extra gold from creeps and Bounty Rune minimap icon Bounty Runes. With enough resources, it is rumored that Razzil has the secret formula to Synthesize a buff into the body that equals the legendary scepter. The Alchemist brews, atop the shoulders of his companion, an increasingly Unstable Concoction that is ideally thrown before it explodes. In a pinch, Razzil slips his partner with an Unknown Potion, inducing a Chemical Rage in the ogre's body. Symptoms include unnatural speeds, rapid health regeneration, and a pleasant purple hue. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": [
         "Carry",
         "Support",
@@ -904,6 +972,7 @@
       "description": "A competent wizard knows perhaps two spells; an exceptional one, three or four. Wielding the elements of Quas, Wex and Exort, the Invoker surpasses them all. Forging Spirits of ice and fire to melt away the armor of enemies with great Alacrity while Snapping their heat-deprived cold bodies. Conjuring an Ice Wall to stop foes in their paths before vanishing into thin air, chilling nearby enemies like a Ghost Wandering through their ranks. Lifting enemies off the ground with a Tornado that reaches through half the battlefield, while charging up an Extractive Mana Pulse for the whirling foes to land into. Pulling down a gigantic Meteor from space to crush enemies along a path while at the same time unleashing a Deafening Blast to push them along meteor's path. And last but not least, predicting enemy movement and using the Sun to Strike enemies from anywhere on the map. Whatever magic he chooses, one thing is certain: All shall come to bow before the Arsenal Magus. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Disabler", "Escape", "Pusher"],
       "complexity": 3
     },
@@ -916,6 +985,7 @@
       "description": "Two hundred years of selective breeding had produced Nortrom, the prophesied war-mage that would bring glory to the order of Aeol Drias. Therefore, disgust and disappointment followed when it was found that the boy could cast not even a hex. Yet, on the day of final testing, Nortrom would have the Last Word. His arranged opponents fell under an Arcane Curse, draining their health and prolonging the curse with each incantation made. Then, there was Global Silence. Not a gasp or whisper escaped their lips as Nortrom cut his challengers to ribbons with his multi-pronged Glaives, stealing their intelligence to add to his own. At that moment, it became clear to all watching — The absence of magic can be the greatest magic of all. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Support"],
       "roles": ["Carry", "Support", "Disabler", "Initiator", "Nuker"],
       "complexity": 2
     },
@@ -928,6 +998,7 @@
       "description": "Wary of the happenings near the central sun, Harbinger departs from his vigil to take his place on the plains of war. The Outworld Destroyer creates an Essence Flux, balancing the tides of mana between him and his opponents. Stealing from the minds of those in his Astral Imprisonment, Outworld Destroyer turns raw intelligence into destructive power. Weakening enemies with a barrage of Arcane Energy glowing spheres that permeates any shield. Looming above his enemies, he drops the proverbial hammer, extinguishing the unenlightened with the cosmic force of Sanity's Eclipse. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Disabler"],
       "complexity": 2
     },
@@ -940,6 +1011,7 @@
       "description": "Part man and part wolf, Banehallow stands as the lone surviving heir to the noble House of Ambry. Not one to squander his curse, Banehallow Summon Wolves to scout ahead and aid him in the hunt. A blood-curdling Howl empowers his animal companions, sinking fang and claw to cripple his prey. But these abilities pale in comparison to the true manifestation of his lycanthropy. Under the full moon, he Shapeshifts and Bites his ally, transforming both of them into a lupine form, and takes on supernatural haste with Feral Impulse as they sprint unhindered across the battlefield to tear the throats from their enemies. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Pusher", "Durable", "Escape"],
       "complexity": 2
     },
@@ -952,6 +1024,7 @@
       "description": "For nine days Mangix fought the master of his order, both warriors swilling and striking in equal measure, until at last the elder collapsed into a drunken stupor. Having claimed the title of Brewmaster, Mangix now wanders the land as a Drunken Brawler, swinging and evading with unpredictable finesse. Under one arm he holds a great keg, and not merely for storing his Cinder Brew. Mangix drenches himself and enemies in alcohol, strengthening himself in an advanced state of inebriation based on his stance, while disorienting enemies before slamming the barrel down with a Thunder Clap. Rumor around taverns is that the Brewmaster is actually composed of Elemental Spirits, each with their own unique abilities, and should one catch him sufficiently intoxicated, one may just witness this Primal Split in action. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Initiator", "Durable", "Disabler", "Nuker"],
       "complexity": 3
     },
@@ -964,6 +1037,7 @@
       "description": "Conspiring to gain power in material plane, the Shadow Demon patiently amassed himself a cult of followers. An entity of malevolent corruption, he spreads Shadow Poison to pollute the pure, while catching souls to compound and Disseminate his own spell effects, few dare to approach Shadow Demon. Banishing an enemy into the void as his allies gather for the kill, his Demonic Curses can Cleanse his allies of impurities, or inflict pain while stripping unneeded servants of every enchantment, effectively relieving his enemy of their duties — and their lives. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Initiator", "Nuker"],
       "complexity": 2
     },
@@ -976,6 +1050,7 @@
       "description": "Chosen by the forces of nature for his profound wisdom, Sylla is all that remains of his forgotten clan. The Lone Druid is followed by his Spirit Bear, a powerful companion that Entangles enemies, and Demolishes structures. The sound of a Savage Roar is often all that's needed to frighten foes from the forest. If not, then the pair synergies a Spirit Link, increasing their speed and endurance as they roam the lands for intruders. Man or bear, the distinction is not always clear. When the situation calls for it, the Lone Druid takes his True Form, and joins the mêlée to fight claw-to-claw alongside his bear. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Pusher", "Durable"],
       "complexity": 3
     },
@@ -988,6 +1063,7 @@
       "description": "Upon the black steed Armageddon, the Chaos Knight rode into countless battles with a single purpose in mind: To extinguish that which he knows as The Light. Like a roll of unseen dice, the oldest Fundamental stuns his targets with a Chaotic Bolt, and then Strikes with life-stealing attacks that deal highly irregular amounts of damage. Those who escape the initial onslaught find themselves in a Reality Rift, reappearing inexplicably at Armageddon's side, exposed for its rider's wrath. Flanked by several images of himself, the Chaos Knight and his apocalyptic Phantasms hack their opponents apart with the strength of multiple heroes. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Disabler", "Durable", "Pusher", "Initiator"],
       "complexity": 1
     },
@@ -1000,6 +1076,7 @@
       "description": "Divided They Stand, united they fall, where there is one Meepo, expect to see more as they Poof towards each other for aid. Scattering his clones throughout the battlefield, The Meepos Bind their foes to the earth, smashing them with their shovels into the ground, Ransacking their vitality for themselves. Although an individual shovel-wielding Meepo is relatively harmless and may Dig into the ground for their own safety, a swarm of angry Meepos Stacking on top of each other can Overwhelm even the mightiest of heroes. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Nuker", "Disabler", "Initiator", "Pusher"],
       "complexity": 3
     },
@@ -1012,6 +1089,7 @@
       "description": "From beyond the Vale of Augury comes Rooftrellen, a lone explorer sent forth by his ancient race to survey the wider world. Barely distinguishable from his arboreal brethren, the Treant Protector summons a Wall of Vines, plants Leeching Seeds into intruders while sprouting regenerative roots for his cohorts and their fortifications alike. In order to assist his role as a protector, Rooftrellen enchants trees to serve as Eyes in the Forest. Emerging unseen among the Guise of Trees, he entangles foes with an Overgrowth of vines and roots, fully immobilized for that which awaits them. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Support", "Initiator", "Durable", "Disabler", "Escape"],
       "complexity": 2
     },
@@ -1024,6 +1102,7 @@
       "description": "Ogres were not known for their intelligence. Thankfully, a two-headed ogre is born once every generation, a blessed individual whose combined brainpower puts him on par with the dullest of single-headed creatures. What he lacks in wits, he makes up for with Dumb Luck. The Ogre Magi possesses an innate chance to Multicast each ability they cast, Ignite enemies to cinder, quashing enemies by doubling, tripling, even quadrupling the damage from an Unrefined and simple Fireblast, boosting the power of his allies in a frenzied Bloodlust or protecting them in Orbs of Fire. Of course, luck can be difficult to rely upon... ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler", "Durable", "Initiator"],
       "complexity": 1
     },
@@ -1036,6 +1115,7 @@
       "description": "Consumed by the chorus of the unending, Dirge, the Undying one marches across the land, rallying the dead to rise against the living. He Saps the Strength from his enemies, and Rip Souls from close-by beings, searing enemies while infusing allies with health. Atop the battlefield, he erects a terrible Tombstone, calling forth legions of clawing zombies to maim and incapacitate his foes. The Undying's powers grow as he ultimately transforms into a gruesome Flesh Golem. Monstrous and truly horrifying, Undying finds great pleasure in keeping himself alive and vital, while his adversaries suffer as he delivers death to the field. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Support", "Durable", "Disabler", "Nuker"],
       "complexity": 1
     },
@@ -1048,6 +1128,7 @@
       "description": "A renowned duelist among sorcerers, Rubick ascended to the title of Grand Magus through the careful elimination of his rivals. Accustomed to assassins, Rubick reacts by lifting attackers off the ground with his mind using Telekinesis to fling them where he will. Arcane Supremacy amplifies his every spell, while enemy arms falter being struck with Fade Bolt. No magic is beyond the reach of the Grand Magus. Rubick replicates enemy specialties and their most unique advantage against them, Stealing and deciphering their secrets, while improving and making it his own, before turning them back towards their owners. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker"],
       "complexity": 3
     },
@@ -1060,6 +1141,7 @@
       "description": "From upland Druud, the Stormcrafter known as Disruptor rides down on his stryder to meet those who threaten ancient Oglodi lands. On his back, he carries a device that lets him aim overloaded Thunder Strikes from the skies. The Stormcrafter is able to Glimpse his target back to an earlier location, and erects his Kinetic Field to confine them within a circular barrier. Magic dissipates inside Disruptor's Static Storm, leaving foes caught within no option but to await their own destruction. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker", "Initiator"],
       "complexity": 2
     },
@@ -1072,6 +1154,7 @@
       "description": "Within the colony of zealot scarabs, the queen goddess Nyx selected a single grub to answer her highest calling. And so, through designed metamorphosis, the Nyx Assassin came into being. The telepathic scarab Devours and burns his prey's minds, while sending out rows of subterranean spikes to Impale them from below. Armored with a Reflecting Carapace, he stuns attackers and reverses any counterattack. Sacrificing mobility by Burrowing into the ground, the Nyx Assassin deprives itself of unnecessary sensories, increasing its regenerative powers and resistance while greatly increasing the reach of its other powers. But the goddess' servant is deadliest when unseen. A distracted target has no chance to react as the Nyx Assassin pierces its body with massive mandibles, thereby fulfilling an unspoken Vendetta in the name of his queen. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Disabler", "Nuker", "Initiator", "Escape"],
       "complexity": 2
     },
@@ -1084,6 +1167,7 @@
       "description": "Once a highly regarded commander of the Slithereen Guard, Slithice fell from honor following a seemingly trivial oversight. She was to find the one stolen chalice, or remain banished forever. Slithice splits a squad of Mirror Images, sending them to scout ahead and Reel In mislead foes. She Ensnares targets in a luminous net, then lashes out with Rip Tides to soften their armor. With the sound of her voice, the enemy halts in mid-swing, lowering their weapons at the sound of a haunting aria. There they will stand, mesmerized, unresponsive to Slithice's encircling allies as they listen to the Siren's Song that has lulled them to their deaths. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": [
         "Carry",
         "Support",
@@ -1104,6 +1188,7 @@
       "description": "The phenomenon that is Io manifests on the physical plane as a wisp of light, its purpose beyond mortal understanding. Accompanied by complementary Spirits that roam around the wisp at its will, it flits to and fro the battlefield, searching for an ally to Tether to. Those blessed with Io's bond feel their feet lighten as the Wisp channels its own regenerative powers into their body. Should its host falter, Io begins to Overcharge, augmenting that ally's speed while strengthening his resolve. As a force unbound by the laws of corporeal space, Io is able to temporarily Relocate itself and an ally to any point in the world, often saving a companion from certain death. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Escape", "Nuker"],
       "complexity": 3
     },
@@ -1116,6 +1201,7 @@
       "description": "Perched atop the Narrow Maze was Visage, a dreadful gargoyle form to which the eternal spirit Necro'lic was bound. Tasked with hunting down those who escape the afterlife, Visage instills Grave Chill in his prey, impairing them while augmenting his speed. He reaps their essence with Soul Assumption, gathering energy from the anguish they felt before releasing it in a devastating attack. Protected by the Gravekeeper's Cloak, the gargoyle's ablative layers deflect both steel and spells. His deadly Familiars scout the land for runaways as Silent as the Grave. On his command, they harass their prey, dropping down to earth as Stone Statues to restrain the captive for their master's impending arrival. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Durable", "Disabler", "Pusher"],
       "complexity": 3
     },
@@ -1128,6 +1214,7 @@
       "description": "The only prisoner ever to escape from Dark Reef, Slark's abilities and ruthlessness are without equal. Pouncing into danger then slipping back out is what Slark does best. With every swing of his barnacle encrusted dagger, Slark steals his target's Essence, converting them to render himself more agile, striking harder and faster. He forges a Dark Pact, sacrificing his own lifeblood to dissipate negative energies that damage foes, and frees him from magical constraints. Concealing himself as he Dances through the Shadows, the Nightcrawler presents no visible target to would-be attackers. Hidden and Shrouded in this black haze, Slark escapes the inescapable and is always ready to to gut his enemies with little risk of retribution. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Disabler", "Nuker"],
       "complexity": 2
     },
@@ -1140,6 +1227,7 @@
       "description": "Constant attack is the key to Medusa's success. Encased in a Mana Shield, she survives against even the most unfavorable odds. Foes bitten by Mystic Snake charge it up with energy, a resource that returns to Medusa for her defensive use. She magically Split her Arrows to mow down waves of enemies. Heroes who lay eyes on her may find it hard to turn away. Petrified, none could hope to approach the Cold Blooded Medusa before the Gorgon's legendary Stone Gaze turns their bodies into statues. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Disabler", "Durable"],
       "complexity": 1
     },
@@ -1152,6 +1240,7 @@
       "description": "Jah'rakal is an intolerable scoundrel, even for a troll. As such, being kicked out of the troll encampment only served to fuel his anger. The next day, he returned with axes in hand, and slew his former comrades in a Berserker's Rage. With each passing blow, the self-styled Troll Warlord accelerates his swings in an irate Fervor. Instantly able to swap between melee and ranged attacks, he throws his Whirling Axes to cripple from afar, while chopping down adjacent foes. To challenge Jah'rakal is to invite one's own death. The Troll Warlord enters a Battle Trance, channeling pure hatred into unequaled speed as he rampages forward, decimating his opponents in a storm of bloody axes. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Pusher", "Disabler", "Durable"],
       "complexity": 2
     },
@@ -1164,6 +1253,7 @@
       "description": "Some write to express their being, others paint or sing. But for the centaurs of Druud, there is no higher art than the art of killing. And in that, none was more accomplished than Bradwarden. With skills acquired in the arena, the Warrunner punishes his opponents and instantly Retaliates their every attack, disregarding harm to himself as he metes out a fearsome Double Edge. Ever in search of a worthy opponent, the Work Horse rouses his allies, and sometimes Hitching them on his back for a ride, to charge down enemies in a wild Stampede, quickening the pace of the carnage. Once battle is joined, the Centaur Warrunner Stomps and tramples surrounding foes, stunning them just long enough for his battleaxe to sink in. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Tank"],
       "roles": ["Durable", "Initiator", "Disabler", "Nuker", "Escape"],
       "complexity": 1
     },
@@ -1176,6 +1266,7 @@
       "description": "A Magnoceros does not believe in chance, and the eruption of Mount Joerlak was no accident. For this reason Magnus set out, never to return to his kin until those responsible had been Impaled upon his horn. For enemies who are foolish enough to gather learn to fear the horn of Magnus. With a deep bellow, he Empowers his companions to strike beyond their normal scope, and devastates entire enemy columns with subterranean Shockwaves. Able to pull nearby foes together with his most remarkable ability, Reverse Polarity, dazed and immobilized, Magnus Skewers them with his horn to bring them before his merciless allies. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry", "Support"],
       "roles": ["Initiator", "Disabler", "Nuker", "Escape"],
       "complexity": 2
     },
@@ -1188,6 +1279,7 @@
       "description": "Timbersaw had a good cause to be paranoid. Augury Bay fell to the walking trees, its inhabitants crushed under branch and bough. But that was the past. His new Saw-suit changed everything. Its long Timber Chain shot out, grasping the nearest trunk and pulling the suit towards it. In an instant, a dozen trees fell in a circle to the oversized saw. Whirling Death, I'll call it! But that was not all. A press of the button, and the bladed Chakram flew into the forest, cutting down even the sturdiest of hardwoods. Delirious with success, Rizzrack pulled up a Second Chakram and a Flamethrower, spinning and spewing in all directions, cackling until all that remained was a field of naked burned stumps. Now, he was ready to face his fears. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Tank"],
       "roles": ["Nuker", "Durable", "Escape"],
       "complexity": 2
     },
@@ -1200,6 +1292,7 @@
       "description": "The enforcer at a local pub, Rigwarl's never failed to collect a tab. That is, until he met one tough customer from the north. For the first time in his life, Rigwarl felt the need to train. His Thorny Back deters attacks while peppering foes with constant barrages of Quill Sprays. From his nose he blows Thick Gobs of Snot, slowing and covering opponents in goo. When it comes to a fight, he really puts his back into it. With every volley and every Sneeze, Rigwarl works himself into a fury, adding rage to each blow as he goes on the Warpath in search of a rematch. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Durable", "Initiator", "Nuker"],
       "complexity": 1
     },
@@ -1212,6 +1305,7 @@
       "description": "Amidst broken stools and shattered bottles, the bewildered barkeep issued Ymir his greatest challenge. Find a proper battle, and win it for whichever side he chose. With that, the champion brawler strode forth, bringing with him the northern elements in the form of a frozen sigil. Able to instantly corner an enemy with a wall of Ice Shards, cutting off all retreat. He understands a Tag Team is only as strong as its weakest member. Gathering both snow and allies, he rolls into battle as an unstoppable Snowball at will, stunning foes in its path. For a finale, the Tusk winds up his drinking arm, and launches his opponent into orbit with a mighty uppercut — his solid signature Walrus PUNCH!.. though his KICKS! are also to be feared. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Initiator", "Disabler", "Nuker"],
       "complexity": 1
     },
@@ -1224,6 +1318,7 @@
       "description": "Bound to his courtly duties, Dragonus could only dream in secret of restoring his beloved to her rightful throne. Deadly and only protected by the Shield of the Scion, Skywrath Mage quickly destroys his enemies with a barrage of powerful magic. Blasting concentrated Arcane Bolts at his targets and crippling them momentarily with a long range Concussive Shot. Those who stand in his way would be muted by an Ancient Seal, exposing their vulnerability before the Skywrath Mage annihilates and vaporizes them in the storm of Mystic Flare. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler"],
       "complexity": 1
     },
@@ -1236,6 +1331,7 @@
       "description": "Unlike the other scions of his house, Abaddon drank deeper than any from the prophetic vapors that flowed from the Font of Avernus. Now a being of unnatural powers, Abaddon stifles his foes by spreading the Curse of Avernus, and releases deathly double-edged Mist Coils to damage adversaries and heal allies. The black mist swirls around his compatriots, forming an Aphotic Shield that absorbs attacks before bursting in a wide radius. But the Font's greatest gift is revealed only in the desperation of battle. Bestowed with Borrowed Time, Abaddon charges the enemy ranks, riding down foes with his cursed blade, his health returning with each welcoming blow. For all that was meant to kill did nothing but make the Lord of Avernus even more formidable. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry", "Support"],
       "roles": ["Support", "Carry", "Durable"],
       "complexity": 1
     },
@@ -1248,6 +1344,7 @@
       "description": "Even the greatest of Titans err in their work. Trapped in his own flawed creation, the Worldsmith seeks forever to repair the fissured planes. His Natural Order reduces all to its base, disintegrating whatever defenses his foes layer themselves with. From a hidden plane, the Elder Titan draws aspects of himself, summoning his Astral Sprit, sending this ghostly form through bodies and past defenses. Once positioned, an Echo Stomp rings out from both Titan and Spirit, knocking unconscious all in its wake. The battlefield cracks under the Titan's forge hammer, and a glimpse of creation is seen as the Earth Splitter rends the ground asunder. For what the Worldsmith makes, he can also unmake. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support"],
       "roles": ["Initiator", "Disabler", "Nuker", "Durable"],
       "complexity": 2
     },
@@ -1260,6 +1357,7 @@
       "description": "Renowned for her intrepid defense of Stonehall, the commander of the Bronze Legion swore a brutal vengeance upon its Abyssal Invaders. The call of Tresdin's horn Heals, Hastens and Inspires her soldiers. Faced with Overwhelming Odds, the commander calls down a spread of arrows from the archers of Stonehall. But above all, Tresdin relishes these one-on-one Duels. Locked in single combat, and with a Moment of Courage, she counter-strikes instinctively, slashing twice in the time her opponent takes to swing once. With each victory claimed, the Legion Commander adds to her strength, scaling her potential upwards without limit, until at last she can be a relentless one-woman army. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
       "complexity": 1
     },
@@ -1272,6 +1370,7 @@
       "description": "Techies Demolitions was not so much a business as it was an excuse for Squee, Spleen, and Spoon to practice their favorite hobby: Blowin' stuff up. For them, battle is a matter of mischief. Giggling while they place misleading Minefield Signs, lob Sticky Bombs around the battlefield, hiding their renowned Proximity Mines they buried beneath Toterin that collapsed the town into a heap of rubble, testing their latest invention — a disarming zaps firing Reactive Tazer, and much more. Techies Demolitions handles dissatisfied customers with unexpected cheer. Their last words Blast Off! can be heard just before an epic and reckless explosion delivers enough to leave most enemies dead. Or at least enraged. Often both. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Nuker", "Disabler"],
       "complexity": 2
     },
@@ -1284,6 +1383,7 @@
       "description": "Impressed by the teachings of Xin, the Burning Celestial breathed life into the warrior-poet's ashes, and from there an image of Xin appeared, born anew as the Ember Spirit. Swift and elusive, the great teacher dashes through his opponents, striking each foe once with a Sleight of Fist before returning to his original spot. He immobilizes enemies with Searing Chains, holding them in place against the scorching heat of his Flame Guard. Across the land, Xin's glowing likenesses stand silent guard. The Ember Spirit arrives at his Fire Remnant from impossible distances, catching the unprepared in a burst of flame before they surrender their lives to Xin's burning blades. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Nuker", "Disabler", "Initiator"],
       "complexity": 2
     },
@@ -1296,6 +1396,7 @@
       "description": "Reborn of stone and jade, Kaolin fights with strength gathered from a thousand years of entombment. The great general places, like pieces on a grand board, silent Stone Remnants for use in strategies known only to himself. A master of positioning and versatility, Kaolin knocks back foes with Boulder Smash, pull allies from the jaws of death with Geomagnetic Grip, freely manipulating and Enchanting Remnants at will. Never one to lead from behind, Kaolin crashes into the fray as a Rolling Boulder. Foes are left stumbling away from battle, their health slipping as they try in vain to escape from the general's maze of Magnetized stones. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support", "Carry"],
       "roles": ["Nuker", "Escape", "Disabler", "Initiator", "Durable"],
       "complexity": 3
     },
@@ -1308,6 +1409,7 @@
       "description": "Through a Fiend's Gate comes the legions of the Abyssal Horde, marching out of their subterranean city with intent to conquer the nations above. Amidst the invaders stood Vrogros, the demonic hulk who conjured and rained apocalyptic Firestorms from the sky, engulfing towns and villages in emerald flame. Immolated enemies are held paralyzed in his spiteful, Malicious Grip. Feasting upon the carnage of battle, gaining strength as foes perish around him, causing their attacks to Atrophy by his very presence, delivering bloody retribution to any who would defy the will the Underlord. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Support", "Tank"],
       "roles": ["Support", "Nuker", "Disabler", "Durable", "Escape"],
       "complexity": 2
     },
@@ -1320,6 +1422,7 @@
       "description": "The fractal walls of Foulfell not only failed to contain Terrorblade, they granted him newfound control over its twisted Reflections. The Demon Marauder Conjure Images of himself, confounding enemies and multiplying his damage. Feeding on his own rage and Zeal, Terrorblade transforms into an even more imposing form; an unholy Metamorphosis that allows him to hurl demonic energies at range and sending Terror Waves trembling his enemies. Experienced foes know that an injured demon is far from defeated. At the brink of death, Terrorblade tips the scales, eliminating any need for retreat as he exchanges his depleted health with that of his opponent's, Sundering their hearts by fear. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Pusher", "Nuker"],
       "complexity": 2
     },
@@ -1332,6 +1435,7 @@
       "description": "With stellar flame emanating from its terrestrial form, the Icarus Dives the battlefield in an arc, setting ablaze all who pass beneath its wings. Within its ever-collapsing core sprang short-lived Fire Spirits, paroxysms of conscious light that burned with debilitating flame. From afar the firebird beams its Solar Flames, scorching foes, yet nurturing allies. By its own celestial timing, the son of suns ends its current life in a Supernova, radiating intense heat until the mass explodes, restoring Phoenix to its form through the glory of rebirth. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Initiator", "Escape", "Disabler"],
       "complexity": 2
     },
@@ -1344,6 +1448,7 @@
       "description": "By carefully combining his intricate abilities, Oracle controls the destinies of both friend and foe. Dispelling both boons and curses, Fortune's End comes sooner than expected. Fate's Edict shelters heroes from magic, yet prevents them from raising arms. Purifying Flames stimulate regeneration, but not without the initial pains of cleansing. The Rain of Destiny shrouds threatened allies while causing harm to enemies. Knowledge of his abilities is key to utilize him as an ally at full potential; while he can defy destiny with False Promise and snatch victory from the jaws of defeat, one mistake can potentially seal the fate of his allies. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler", "Escape"],
       "complexity": 3
     },
@@ -1356,6 +1461,7 @@
       "description": "Where most dragons originate fire, the Winter Wyvern stores unfathomable cold. Soaring over the treeline, she breathes a blistering chill, causing painful Burning Colds. Gentle with her companions, she encases them in an Icy Cocoon, freezing them solid while healing them in curative magic. Auroth has no time for would-be dragon-slayers. Should the enemy be foolish to gather, her Winter's Curse compels her attackers to turn against one another. As frozen crystals form inside her gullet, she blasts the gathering with Icy Splinters that shatters upon impact of closely packed foes. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker"],
       "complexity": 2
     },
@@ -1368,6 +1474,7 @@
       "description": "A splintered fragment of the same primordial power as the Ancients themselves, Zet endeavors to end the disharmony among the warring factions through whatever means necessary. Solitary foes are thrown into a volatile state of Flux, ripping away their health over time. Distorting space to generate a Protective Field sheltering around allies, evading and attacking with greater efficiency. Zet summons Spark Fragments of its former self that circles in place, and seek out nearby foes. Is there one Arc Warden, or two? Armed with the original's items and abilities, the Self's Tempest Double duplicates each spell and every attack, bringing twice the chaos to any fight. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Nuker"],
       "complexity": 3
     },
@@ -1380,6 +1487,7 @@
       "description": "Always in search of a good fight, Monkey King Dances and travels atop of trees aiming to Spring from leafy cover and surprise his enemies. A tuft of hair—plucked from his head—scatters into the wind, calling and commanding upon an army of Monkey Soldiers to overwhelm opponents, this agile Trickster revels in the chaos of battle, ready to show is Mastery over his arts, slamming his legendary Boundless Staff down on any hopes of escape. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Disabler", "Initiator"],
       "complexity": 2
     },
@@ -1392,6 +1500,7 @@
       "description": "A slight flutter from the shadows may be all an enemy sees of Dark Willow, as she eludes pursuit and controls her foe's movements with devious and cunning fae tricks. Her heritage lets her slip into the Shadow Realm, avoiding attacks while entrapping victims in thorny Brambles. She lays a Cursed Crown on her foes, stunning them no matter they run. The Dark Willow's companion wisp is no less to fear. Jex circles its mistress, creating sheer Bedlam before tapping into primal fears, Terrorizing enemies into submission. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler", "Escape"],
       "complexity": 2
     },
@@ -1404,6 +1513,7 @@
       "description": "Fond of wine, women, and eager to dash into danger at a moment's notice, the Pangolier can Swashbuckle and hold his own. He thrives on disrupting enemy movements and placing himself in the midst of chaos. Artfully guiding his rapier between cracks in armor as he fends off attacks with his Protective Scales, this graceful swordsman is always ready to Roll into the battlefield, Thundering like a Boulder and slamming foes aside, clearing the path to victory.",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Nuker", "Disabler", "Durable", "Escape", "Initiator"],
       "complexity": 2
     },
@@ -1416,6 +1526,7 @@
       "description": "The peoples of Ashkavor gave their lives for the newly Ascended, one unlike any Ascended before him. Grimstroke's lust for power had tainted the sacred ritual, and the corrupted ink consumed him — along with his kin. The defiled remnant of his former beloved remains at his side, agonizing those caught in this Phantom's Embrace. Shrouded by a shadowy Ink Swell, Grimstroke retaliates with lashing black tendrils, while a Stroke of Fate forms under his brush, darkening the land and painting a Dark Portrait of an unfortunate foe. Drawing on Ashkavorian rituals of protection, Grimstroke twists the ancient arts to Soulbind foes together, so that the sufferings and vexes of one will be felt equally by the other. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler", "Escape"],
       "complexity": 2
     },
@@ -1428,6 +1539,7 @@
       "description": "Always at hand when trouble's afoot, Hoodwink lives to tangle with the threats that fill the haunted forest she adopted as her home. A natural Sharpshooter toting a massive crossbow and firing Acorn Shots while still able to Scurry through the woodland with the greatest of ease, Hoodwink is nearly impossible to keep tabs on in battle and Bushwhacks her foes when they least expect her to. Losing track of her once, she will use the opportunity to mislead her foes by sending out a Decoy, only to pop out holding her Boomerang behind them — their stunned carcasses already dangling in one of her nets. ",
       "primary_attr": "agi",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Escape", "Disabler"],
       "complexity": 2
     },
@@ -1440,6 +1552,7 @@
       "description": "Privy to secrets that would shatter a mortal mind, Inai emerges from the Hidden Temple into the material world to perform tasks that change the trajectory of the world. Dissimilating and reappearing in random portals, the Void Spirit leaves behind glowing Aether Remnants that pull enemies into their destructive embrace. Sending out Resonant Pulses, he shrouds himself in the essence of the aether, a volatile energy that slays the weak and nullifies the attacks of the mighty. A tear in reality is observed as the Void Spirit Astral Steps through his enemies, leaving a trail of ruin in his path. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Nuker", "Disabler"],
       "complexity": 2
     },
@@ -1452,6 +1565,7 @@
       "description": "The plucky Keen known as Beatrix Snapfire has survived to venerable old age in the harsh deserts of Nanarak, owing to her ingenious craftsmanship, and overwhelming firepower. Just as happy to blow your legs off with her Trusty Scattergun as to fill your belly up with a deliciously-dangerous Firesnap Cookie, she delights in riding into battle with her dragon toad Mortimer, always ready to mow down their enemies with her Lil' Shredder, a homemade heavy artillery, or finish them off with a surprise — a steady, long range artillery barrage of Mortimer's Kisses and sometimes an ally Mortimer Gobbled Up, covering the battlefield in pools of flame. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Nuker", "Disabler", "Escape"],
       "complexity": 1
     },
@@ -1464,6 +1578,7 @@
       "description": "The warrior deity Mars thrives in the heart of strife, guarded by the bulk of a deadly shield, an impenetrable Bulwark that guards against all assault. Using divine strength, he skewers enemies with his Legendary Spear, and Rebukes attackers back with his shield. He revels in facing opponents in an Arena of Blood, ringed with loyal undead spearmen of the Ash Legion — who guarantee that no one escapes and that whatever odds he's facing, the god of war can dictate the terms of battle knowing the crowd is forever on his side. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Initiator", "Disabler", "Durable"],
       "complexity": 1
     },
@@ -1476,6 +1591,7 @@
       "description": "To those who dared organize defiance, the Children of Light would dispatch Valora and her hammer to show a measure of their power. Dawnbreaker shines Luminosity in the heart of battle, happily shattering her enemies with her Celestial Hammer, the Brightmaul, while healing nearby allies. She revels in her signature move, the Starbreaker, hurling through multiple foes and then Converging with it in a blazing wake, always waiting to tap her true cosmic power as a Solar Guardian to fly to the aid of her teammates — eager to rout her enemies on the battlefield no matter where they are. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Carry", "Durable"],
       "complexity": 1
     },
@@ -1488,6 +1604,7 @@
       "description": "Proving that undying loyalty yields unrivaled power, Marci always marches into battle ready to raise fists in defense of her companions. Effortlessly Disposing friends and foes around the battlefield. With a friendly or brazen boost, she happily finds her way into the midst of any fight. Using allies as an anchor, she Rebounds into and out of any brawl with deadly speed, dauntlessly deterring against harming any she deems friend. Those who attempt to undermine her stature, or as Princess Mirana's rookie Sidekick, will be single-targetly crushed as she Unleashes a hidden power strong enough to make even gods reconsider the wisdom of a hostile path. ",
       "primary_attr": "uni",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Support", "Carry", "Initiator", "Disabler", "Escape"],
       "complexity": 2
     },
@@ -1500,6 +1617,7 @@
       "description": "An ancient beast awakened from a long slumber, he uses a wide array of savagely cunning abilities which can impede the enemy groups. Rushing savagely through enemies and allies alike, Primal Beast Tramples into battle as one born to raise a ruckus. An unavoidable threat amidst any fray, the Uproared Beast can punish attackers and Hurl Massive Rocks at them with ease. It relishes grabbing prey and Pulverizing them against the ground until nothing but mush remains. A fearsome beast, the Primal Beast shows no mercy to his helpless prey as the epitome of a true apex predator. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Tank"],
       "roles": ["Initiator", "Durable", "Disabler"],
       "complexity": 1
     },
@@ -1512,6 +1630,7 @@
       "description": "Muerta is a master of death who stalks the lands of life, corralling targets with fearsome Trickshots from an eternity of practice that defies the mortal mind. Her family are forever beyond the spirit veil, but her deal with Death allows her to briefly call on them — The Revenants — in times of want or need to smother her foes. Always ready to pick off unwary targets with her Spare Gunhand and Parting Shots, Muerta offers all of her victims Mercy, and some, are fortunate enough to also earn Grace — one gun to deliver the soul, and the other, to claim the soul. Muerta is at her most menacing when she sheds her corporeal form, Crossing the Veil of the Dead to strike her enemies with the ethereal fury of the damned. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Carry"],
       "roles": ["Carry", "Nuker", "Disabler"],
       "complexity": 1
     },
