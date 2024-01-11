@@ -9,6 +9,7 @@
       "description": "Among the ascetic monks of Turstarkuri, only a young acolyte was fortunate enough to escape the fallen legion's assault on the monastery. Now, vowing to eliminate not only the magic of the Dead God, the Anti-Mage returns to eradicate magic altogether. With sheer focus, he Counters Spells thrown at him and his Allies, returning them to their senders. No wizard's trick is enough to contain or elude the Anti-Mage, as he Blinks out of any trap, while at the same time being capable of sending a Fragments of himself to pursue targets in return. With each swing of his unorthodox blades, the Anti-Mage steps closer to his goal of erradicating all magic, Breaking apart Mana, setting up the depleted caster to perish in a crushing Mana Void. ",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Escape", "Nuker"],
       "complexity": 1
     },
@@ -21,6 +22,7 @@
       "description": "One by one the soldiers of the Red Mist fell, some in battle, others to Mogul Khan's ambitions, until the self-declared general found himself a commander without troops. No matter, Axe thought, For a one-man army is the best army of all. — Leaping into battle, Mogul Khan compels nearby foes to attack him with a taunting Berserker's Call. Absorbing blows from every direction, the indomitable Axe reacts by swinging his axe full circle in a Counter Helix, easily dispatching the swarm he had gathered. But alas, not all stay long enough to meet their end. The few limping away from Mogul Khan feel an inexplicable Battle Hunger, a hunger never sated before Axe slams his Culling Blade through a weakened enemy, sending them to an early grave. Axe, Axe is always charging onward. ",
       "primary_attr": "str",
       "attack_type": "Melee",
+      "classes": ["Carry", "Tank"],
       "roles": ["Initiator", "Durable", "Disabler", "Carry"],
       "complexity": 1
     },
@@ -33,6 +35,7 @@
       "description": "Formed from the ichor of Nyctasha, Atropos is the vaporous embodiment of pure fear. Sheer terror Enfeebles his enemies, diminishing their efficiency on the battlefield. The Bane Elemental puts heroes to sleep, sending them into a restless and contagious Nightmare as he feeds on their vital energies by Sapping their Brains. Some will never wake. Caught in the Fiend's Grip, Bane's victims can only swing at imagined phantoms as fear chokes the life from their bodies. ",
       "primary_attr": "uni",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker", "Durable"],
       "complexity": 2
     },
@@ -45,6 +48,7 @@
       "description": "The Flayed Twins' obscene demand for blood could only be met through constant carnage, a task for which Strygwyr was more than suited. Driven by insatiable Thirst, the Bloodseeker senses blood of the mortally wounded from leagues away, and chases them down with eager speed. Through sacred markings on his gear, the blood of the freshly sacrificed flows directly to the Flayed Ones, leaving just enough to mend his wounds and fuel his imbued Rage. Strygwyr paints the land with a crimson ring, silencing foes caught in this Blood Ritual. Forcing difficult decisions on his enemies, for those who run only hasten their own demise. The Bloodseeker Ruptures every artery, causing his victim to hemorrhage with each step. To satisfy the demands of the Flayed Twins, Bloodseeker even goes as far to sacrifice some of his, spraying his own blood around him in a Bloody Mist. By blood loss or by Strygwyr's tribal blades, death is but a foregone conclusion.",
       "primary_attr": "agi",
       "attack_type": "Melee",
+      "classes": ["Carry"],
       "roles": ["Carry", "Disabler", "Nuker", "Initiator"],
       "complexity": 1
     },
@@ -57,6 +61,7 @@
       "description": "Wherever Rylai went, the cold went with her. Fields and orchards withered in her wake, leaving her parents no choice but to pack her off to Icewrack, a realm in the frigid north. Under the tutelage of a hermit wizard, Rylai learned to imprison her enemies with a Thick Block of Ice, holding them in place as she Freezes the Ground. Magic flourishes under her, stimulating Arcane Energy Regeneration in all her companions. In the heat of battle, Rylai keeps a cool head. Channeling her Elemental Talents, the Crystal Maiden summons enormous shards of ice from the skies, obliterating all foes foolish enough to remain in her Freezing Field. ",
       "primary_attr": "int",
       "attack_type": "Ranged",
+      "classes": ["Support"],
       "roles": ["Support", "Disabler", "Nuker"],
       "complexity": 1
     },
